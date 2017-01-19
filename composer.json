@@ -1,0 +1,10 @@
+{
+  "name": "su-sws/stanford_layouts",
+  "description": "Stanford Layouts for the layout_plugin",
+  "type": "stanford-module",
+  "homepage": "https://github.com/SU-SWS/stanford_layouts",
+  "authors": [],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}
