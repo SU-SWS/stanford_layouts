@@ -6,5 +6,5 @@ package: Stanford
 version: 8.x-1.0-dev
 dependencies:
   - layout_plugin
-# libraries:
-#   - stanford_layouts/example_name
+libraries:
+  - stanford_layouts/base_styles

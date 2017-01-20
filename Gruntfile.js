@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         }
       },
       css: {
-        files: ['scss/**/*.scss'],
+        files: ['scss/**/*.scss', 'plugins/layouts/**/*.scss'],
         tasks: ['sass'],
         options: {
           interrupt: true
@@ -79,11 +79,12 @@ module.exports = function(grunt) {
       dist: {
         files: {
           // Compiled styles.
-          'css/components.css':         'scss/components/components.scss',
-          'css/layout.css':             'scss/layout/layout.scss',
-          'css/states.css':             'scss/states/states.scss',
-          'css/theme.css':              'scss/theme/theme.scss',
-          'css/print.css':              'scss/theme/print.scss'
+          'css/components.css':                                       'scss/components/components.scss',
+          'css/layout.css':                                           'scss/layout/layout.scss',
+          'css/states.css':                                           'scss/states/states.scss',
+          'css/theme.css':                                            'scss/theme/theme.scss',
+          'css/print.css':                                            'scss/theme/print.scss',
+          'plugins/layouts/sws_2col_centered/sws-2col-centered.css' : 'plugins/layouts/sws_2col_centered/sws-2col-centered.scss'
         }
       }
     },
