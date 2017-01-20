@@ -9,14 +9,14 @@ module.exports = function(grunt) {
     watch: {
       // This is where we set up all the tasks we'd like grunt to watch for changes.
       images: {
-        files: ['images/source/*.{png,jpg,gif}'],
+        files: ['img/source/*.{png,jpg,gif}'],
         tasks: ['imagemin'],
         options: {
           spawn: false,
         }
       },
       vector: {
-        files: ['images/source/**/*.svg'],
+        files: ['img/source/**/*.svg'],
         tasks: ['svgmin'],
         options: {
           spawn: false,
@@ -56,9 +56,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'images/source/',
+          cwd: 'img/source/',
           src: ['{,*/}*.svg' ],
-          dest: 'images/optimized/'
+          dest: 'img/optimized/'
         }]
       }
     },
@@ -98,7 +98,7 @@ module.exports = function(grunt) {
           src : [
             'css/**/*.css',
             'templates/**/*.twig',
-            'images/optimized/**/*.{png,jpg,gif,svg}',
+            'img/optimized/**/*.{png,jpg,gif,svg}',
             'js/build/**/*.js',
             '*.theme'
           ]
