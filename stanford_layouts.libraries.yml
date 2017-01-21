@@ -61,7 +61,7 @@
 #   dependencies:
 #     - core/jquery
 
-base_styles:
+base:
   version: VERSION
   css:
     layout:
