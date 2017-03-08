@@ -1,22 +1,12 @@
 @charset 'UTF-8';
 
-// I like big fonts I cannot lie.
-$root-font-size: 20px;
-$base-font-size: 36px;
-
 // Decant.
-@import "decanter";
-
-.grid-collapse {
-  @include grid-media($media-sm) {
-    @include grid-collapse;
-    @include clearfix;
-  }
-}
+@import "decanter/core/utilities/decanter-utilities";
 
 .layout--molive {
   @include responsive-container($default-container);
   @include grid-container;
+
   .column--first,
   .column--second,
   .column--third,
@@ -26,6 +16,13 @@ $base-font-size: 36px;
     }
     @include grid-media($media-md) {
       @include grid-column(1 of 4);
+    }
+  }
+
+  .grid-collapse {
+    @include grid-media($media-sm) {
+      @include grid-collapse;
+      @include clearfix;
     }
   }
 

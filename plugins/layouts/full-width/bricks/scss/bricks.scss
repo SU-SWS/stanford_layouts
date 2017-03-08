@@ -1,16 +1,7 @@
 @charset 'UTF-8';
 
-// I like big fonts I cannot lie.
-$root-font-size: 20px;
-$base-font-size: 36px;
-
 // Decant.
-@import "decanter";
-
-.grid-collapse {
-  @include grid-collapse;
-  @include clearfix;
-}
+@import "decanter/core/utilities/decanter-utilities";
 
 .full-width {
   background: #FDF;
@@ -23,6 +14,12 @@ $base-font-size: 36px;
 }
 
 .layout--bricks {
+
+  .grid-collapse {
+    @include grid-collapse;
+    @include clearfix;
+  }
+  
   @include responsive-container($default-container);
   @include grid-container;
   @include clearfix;

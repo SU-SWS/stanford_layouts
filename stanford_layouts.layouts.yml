@@ -1,4 +1,27 @@
-sws-2col-centered:
+# FULL WIDTH
+bricks:
+  label: Bricks
+  category: 'Full Width'
+  path: plugins/layouts/full-width/bricks
+  icon: bricks.png
+  css: css/bricks.css
+  template: bricks
+  regions:
+    hero:
+      label: Full Width Top
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    full:
+      label: Full Width \#2
+    third:
+      label: Third Column
+    fourth:
+      label: Fourth Column
+
+# FOUR COLUMN
+molive:
   label: Molive
   category: 'Columns: 4'
   path: plugins/layouts/four-column/molive
@@ -18,3 +41,19 @@ sws-2col-centered:
       label: Fourth Column
     footer:
       label: Footer
+
+# THREE COLUMN
+bars:
+  label: Bars
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/bars
+  icon: bars.png
+  css: css/bars.css
+  template: bars
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column

@@ -69,6 +69,8 @@ module.exports = function(grunt) {
         includePaths: [
           "node_modules/bourbon/core",
           "node_modules/bourbon-neat/core",
+          "node_modules/font-awesome/scss",
+          "node_modules/neat-omega",
           "node_modules"
         ],
         sourceMap: true,
@@ -78,8 +80,12 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          // Compiled styles.
-          'plugins/layouts/four-column/molive/css/molive.css' : 'plugins/layouts/four-column/molive/scss/molive.scss'
+          // Full Width Options.
+          'plugins/layouts/full-width/bricks/css/bricks.css' : 'plugins/layouts/full-width/bricks/scss/bricks.scss',
+          // Four Column.
+          'plugins/layouts/four-column/molive/css/molive.css' : 'plugins/layouts/four-column/molive/scss/molive.scss',
+          // Three Column.
+          'plugins/layouts/three-column/bars/css/bars.css' : 'plugins/layouts/three-column/bars/scss/bars.scss'
         }
       }
     },
