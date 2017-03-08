@@ -1,12 +1,20 @@
 sws-2col-centered:
-  label: Two column centered
-  category: 'Columns: 2'
-  path: plugins/layouts/sws_2col_centered
-  icon: sws-2col-centered.png
-  css: sws-2col-centered.css
-  template: sws-2col-centered
+  label: Molive
+  category: 'Columns: 4'
+  path: plugins/layouts/four-column/molive
+  icon: molive.png
+  css: css/molive.css
+  template: molive
   regions:
-    left:
-      label: Left side
-    right:
-      label: Right side
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: Fourth Column
+    footer:
+      label: Footer

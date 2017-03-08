@@ -1,8 +1,0 @@
-@charset 'UTF-8';
-
-// Two column centered via neat grid.
-@import "../../../scss/config/grid-settings";
-
-.panel-panel {
-  @include grid-column(6 of 12);
-}
