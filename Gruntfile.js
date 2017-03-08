@@ -85,7 +85,11 @@ module.exports = function(grunt) {
           // Four Column.
           'plugins/layouts/four-column/molive/css/molive.css' : 'plugins/layouts/four-column/molive/scss/molive.scss',
           // Three Column.
-          'plugins/layouts/three-column/bars/css/bars.css' : 'plugins/layouts/three-column/bars/scss/bars.scss'
+          'plugins/layouts/three-column/bars/css/bars.css' : 'plugins/layouts/three-column/bars/scss/bars.scss',
+          // Two Column.
+          'plugins/layouts/two-column/donies/css/donies.css' : 'plugins/layouts/two-column/donies/scss/donies.scss',
+          // One Column.
+          'plugins/layouts/one-column/basic/css/basic.css' : 'plugins/layouts/one-column/basic/scss/basic.scss'
         }
       }
     },

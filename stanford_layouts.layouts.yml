@@ -57,3 +57,33 @@ bars:
       label: Second Column
     third:
       label: Third Column
+
+# TWO COLUMN
+donies:
+  label: Donies
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/donies
+  icon: donies.png
+  css: css/donies.css
+  template: donies
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    footer:
+      label: Footer
+
+# One COLUMN
+basic:
+  label: Basic
+  category: 'Columns: 1'
+  path: plugins/layouts/one-column/basic
+  icon: basic.png
+  css: css/basic.css
+  template: basic
+  regions:
+    content:
+      label: Content
