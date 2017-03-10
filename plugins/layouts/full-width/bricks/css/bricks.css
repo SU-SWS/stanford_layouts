@@ -1,5 +1,4 @@
 .full-width {
-  background: #FDF;
   clear: both;
 }
 
@@ -16,7 +15,6 @@
 
 .layout--bricks {
   clear: both;
-  background: #FDF;
 }
 
 .layout--bricks .grid-collapse {

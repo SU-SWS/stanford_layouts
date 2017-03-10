@@ -58,6 +58,31 @@ bars:
     third:
       label: Third Column
 
+battleship:
+  label: Battleship
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/battleship
+  icon: battleship.png
+  css: css/battleship.css
+  template: battleship
+  regions:
+    first:
+      label: First Column / Header
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+    sixth:
+      label: Sixth Column
+    seventh:
+      label: Seventh Column
+    eighth:
+      label: Eighth Column
+
 # TWO COLUMN
 donies:
   label: Donies

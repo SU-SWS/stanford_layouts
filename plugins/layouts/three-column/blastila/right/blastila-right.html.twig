@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Template for a complex column panel layout.
+ *
+ * This template provides a complex column panel display layout, with
+ * each column roughly equal in width.
+ *
+ * Variables:
+ * - $id: An optional CSS id to use for the layout.
+ * - $content: An array of content, each item in the array is keyed to one
+ *   panel of the layout. This layout supports the following sections:
+ *   - $content['first']: Content in the left column.
+ *   - $content['second']: Content in the right column.
+ */
+#}
+<main class="layout--blastila--right">
+
+  <header class="column column--first">
+    {{ content.header }}
+  </header>
+
+  <div class="grid-collapse">
+
+    <div class="column column--third">
+      <section class="grid-collapse">
+        <header class="column column--third--first">
+          {{ content.header }}
+        </header>
+
+        <div class="column column--third-second">
+          {{ content.first }}
+        </div>
+
+        <div class="column column--third-third">
+          {{ content.second }}
+        </div>
+
+      </section>
+    </div>
+
+    <aside class="column column--second">
+      {{ content.third }}
+    </aside>
+
+  </div>
+</main>
