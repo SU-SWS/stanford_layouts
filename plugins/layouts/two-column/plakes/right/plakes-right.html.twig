@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--plakes--right">
+<main class="layout--plakes--right" {% if css_id %}{{ css_id }}{% endif %}>
   <header>
     {{ content.header }}
   </header>

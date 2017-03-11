@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--percles-right">
+<main class="layout--percles-right" {% if css_id %}{{ css_id }}{% endif %}>
 
   <div class="column column--first">
     {{ content.first }}
@@ -35,5 +35,5 @@
   <div class="column column--fifth">
     {{ content.fifth }}
   </div>
-  
+
 </main>

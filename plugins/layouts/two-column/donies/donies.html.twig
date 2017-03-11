@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--donies">
+<main class="layout--donies" {% if css_id %}{{ css_id }}{% endif %}>
   <header class="column">
     {{ content.header }}
   </header>

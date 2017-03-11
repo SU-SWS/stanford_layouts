@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--blastila--left">
+<main class="layout--blastila--left" {% if css_id %}{{ css_id }}{% endif %}>
 
   <header class="column column--first">
     {{ content.header }}

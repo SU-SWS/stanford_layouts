@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--strigges">
+<main class="layout--strigges" {% if css_id %}{{ css_id }}{% endif %}>
 
   <div class="column column--first">
     {{ content.first }}
@@ -27,5 +27,5 @@
   <div class="column column--third">
     {{ content.third }}
   </div>
-  
+
 </main>

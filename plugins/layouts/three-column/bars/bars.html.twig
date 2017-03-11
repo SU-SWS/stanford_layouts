@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--bars">
+<main class="layout--bars" {% if css_id %}{{ css_id }}{% endif %}>
 
   <div class="column column--first">
     {{ content.first }}

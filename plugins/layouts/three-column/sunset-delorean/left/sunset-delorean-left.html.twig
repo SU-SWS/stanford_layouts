@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--sunset-delorean--left">
+<main class="layout--sunset-delorean--left" {% if css_id %}{{ css_id }}{% endif %}>
   <section>
     <header>
       {{ content.header }}

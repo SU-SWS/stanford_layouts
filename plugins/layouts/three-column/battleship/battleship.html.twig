@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--battleship">
+<main class="layout--battleship" {% if css_id %}{{ css_id }}{% endif %}>
 
   <header class="column column--first">
     {{ content.first }}
@@ -47,5 +47,5 @@
   <div class="column column--eighth">
     {{ content.eighth }}
   </div>
-  
+
 </main>

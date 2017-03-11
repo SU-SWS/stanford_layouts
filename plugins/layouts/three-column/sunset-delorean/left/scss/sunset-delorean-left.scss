@@ -1,30 +1,23 @@
 @charset 'UTF-8';
 
-// I like big fonts I cannot lie.
-$root-font-size: 20px;
-$base-font-size: 36px;
-
 // Decant.
-@import "decanter";
+@import "decanter/core/utilities/decanter-utilities";
 
-.nested-grid {
-  @include grid-collapse;
-  @include grid-visual;
-}
 
 .layout--sunset-delorean--left {
-
   @include responsive-container($default-container);
   @include grid-container;
-  background: #FDF;
-
   @include grid-media($media-md) {
     @include grid-collapse;
   }
 
+  .nested-grid {
+    @include grid-collapse;
+    @include grid-visual;
+  }
+
   // Main Content.
   > main {
-    background-color: transparent;
     @include grid-media($media-md) {
       @include grid-column(8 of 12);
     }

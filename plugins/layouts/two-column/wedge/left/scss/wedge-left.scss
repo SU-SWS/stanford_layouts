@@ -1,25 +1,14 @@
 @charset 'UTF-8';
 
-// I like big fonts I cannot lie.
-$root-font-size: 20px;
-$base-font-size: 36px;
-
 // Decant.
-@import "decanter";
-
+@import "decanter/core/utilities/decanter-utilities";
 
 .layout--wedge--left {
-  background: #FDF;
   @include responsive-container($default-container);
   @include grid-container;
 
   @include grid-media($media-md) {
     @include flex-container('*', flex, row, wrap, flex-start);
-  }
-
-  .column--first,
-  .column--second {
-    border: dashed 3px #0F0;
   }
 
   .column--first {
