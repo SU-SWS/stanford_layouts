@@ -87,6 +87,18 @@ module.exports = function(grunt) {
           // Three Column.
           'plugins/layouts/three-column/bars/css/bars.css' : 'plugins/layouts/three-column/bars/scss/bars.scss',
           'plugins/layouts/three-column/battleship/css/battleship.css' : 'plugins/layouts/three-column/battleship/scss/battleship.scss',
+          'plugins/layouts/three-column/blastila/left/css/blastila-left.css' : 'plugins/layouts/three-column/blastila/left/scss/blastila-left.scss',
+          'plugins/layouts/three-column/blastila/right/css/blastila-right.css' : 'plugins/layouts/three-column/blastila/right/scss/blastila-right.scss',
+          'plugins/layouts/three-column/chess/css/chess.css' : 'plugins/layouts/three-column/chess/scss/chess.scss',
+          'plugins/layouts/three-column/cuttoner/left/css/cuttoner-left.css' : 'plugins/layouts/three-column/cuttoner/left/scss/cuttoner-left.scss',
+          'plugins/layouts/three-column/cuttoner/right/css/cuttoner-right.css' : 'plugins/layouts/three-column/cuttoner/right/scss/cuttoner-right.scss',
+          'plugins/layouts/three-column/percles/left/css/percles-left.css' : 'plugins/layouts/three-column/percles/left/scss/percles-left.scss',
+          'plugins/layouts/three-column/percles/right/css/percles-right.css' : 'plugins/layouts/three-column/percles/right/scss/percles-right.scss',
+          'plugins/layouts/three-column/robot/css/robot.css' : 'plugins/layouts/three-column/robot/scss/robot.scss',
+          'plugins/layouts/three-column/space-invader/css/space-invader.css' : 'plugins/layouts/three-column/space-invader/scss/space-invader.scss',
+          'plugins/layouts/three-column/strigges/css/strigges.css' : 'plugins/layouts/three-column/strigges/scss/strigges.scss',
+          'plugins/layouts/three-column/sunset-delorean/left/css/sunset-delorean-left.css' : 'plugins/layouts/three-column/cuttoner/left/scss/sunset-delorean-left.scss',
+          'plugins/layouts/three-column/sunset-delorean/right/css/sunset-delorean-right.css' : 'plugins/layouts/three-column/cuttoner/right/scss/sunset-delorean-right.scss',
           // Two Column.
           'plugins/layouts/two-column/donies/css/donies.css' : 'plugins/layouts/two-column/donies/scss/donies.scss',
           // One Column.

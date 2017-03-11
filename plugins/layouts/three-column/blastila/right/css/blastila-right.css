@@ -1,8 +1,8 @@
 @media only screen and (min-width: 0px) {
-  .layout--cuttoner-right {
+  .layout--blastila--right {
     padding: 1em calc(((50vw /12) * 0) + 20px);
   }
-  .layout--cuttoner-right::after {
+  .layout--blastila--right::after {
     clear: both;
     content: "";
     display: block;
@@ -10,10 +10,10 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .layout--cuttoner-right {
+  .layout--blastila--right {
     padding: 1em calc(((50vw /12) * 0) + 20px);
   }
-  .layout--cuttoner-right::after {
+  .layout--blastila--right::after {
     clear: both;
     content: "";
     display: block;
@@ -21,10 +21,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .layout--cuttoner-right {
+  .layout--blastila--right {
     padding: 1em calc(50vw - (600px - 20px));
   }
-  .layout--cuttoner-right::after {
+  .layout--blastila--right::after {
     clear: both;
     content: "";
     display: block;
@@ -32,29 +32,29 @@
 }
 
 @media only print {
-  .layout--cuttoner-right {
+  .layout--blastila--right {
     padding: 1em calc(((50vw /12) * 0) + 0.25in);
   }
-  .layout--cuttoner-right::after {
+  .layout--blastila--right::after {
     clear: both;
     content: "";
     display: block;
   }
 }
 
-.layout--cuttoner-right::after {
+.layout--blastila--right::after {
   clear: both;
   content: "";
   display: block;
 }
 
-@media only screen and (min-width: 576px) {
-  .layout--cuttoner-right .grid-collapse {
+@media only screen and (min-width: 768px) {
+  .layout--blastila--right .grid-collapse {
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
   }
-  .layout--cuttoner-right .grid-collapse::after {
+  .layout--blastila--right .grid-collapse::after {
     clear: both;
     content: "";
     display: block;
@@ -62,27 +62,36 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .layout--cuttoner-right .column--second {
-    width: calc(25% - 25px);
+  .layout--blastila--right .column--second {
+    width: calc(33.33333% - 26.66667px);
     float: left;
     margin-left: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .layout--cuttoner-right .column--first {
-    width: calc(75% - 35px);
+  .layout--blastila--right .column--third {
+    width: calc(66.66667% - 33.33333px);
     float: left;
     margin-left: 20px;
   }
 }
 
-@media only screen and (min-width: 576px) {
-  .layout--cuttoner-right .column--first .column {
+@media only screen and (min-width: 768px) {
+  .layout--blastila--right .column--third--first {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .layout--blastila--right .column--third-second,
+  .layout--blastila--right .column--third-third {
     width: calc(50% - 30px);
     float: left;
     margin-left: 20px;
   }
 }
 
-/*# sourceMappingURL=cuttoner-right.css.map */
+/*# sourceMappingURL=blastila-right.css.map */
