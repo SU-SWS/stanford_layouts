@@ -83,6 +83,306 @@ battleship:
     eighth:
       label: Eighth Column
 
+blastila-left:
+  label: Blastila Left
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/blastila/left
+  icon: blastila-left.png
+  css: css/blastila-left.css
+  template: blastila-left
+  regions:
+    header:
+      label: Header
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+
+blastila-right:
+  label: Blastila Right
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/blastila/right
+  icon: blastila-right.png
+  css: css/blastila-right.css
+  template: blastila-right
+  regions:
+    header:
+      label: Header
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+
+chess:
+  label: Chess
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/chess
+  icon: chess.png
+  css: css/chess.css
+  template: chess
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+    sixth:
+      label: Sixth Column
+
+cuttoner-left:
+  label: Cuttoner Left
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/cuttoner/left
+  icon: cuttoner-left.png
+  css: css/cuttoner-left.css
+  template: cuttoner-left
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    footer:
+      label: Footer
+
+cuttoner-right:
+  label: Cuttoner Right
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/cuttoner/right
+  icon: cuttoner-right.png
+  css: css/cuttoner-right.css
+  template: cuttoner-right
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    footer:
+      label: Footer
+
+percles-left:
+  label: Percles Left
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/percles/left
+  icon: percles-left.png
+  css: css/percles-left.css
+  template: percles-left
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+
+percles-right:
+  label: Percles Right
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/percles/right
+  icon: percles-right.png
+  css: css/percles-right.css
+  template: percles-right
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: fourth Column
+    fifth:
+      label: Fifth Column
+
+robot:
+  label: Robot
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/robot
+  icon: robot.png
+  css: css/robot.css
+  template: robot
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+
+space-invader:
+  label: Space Invader
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/space-invader
+  icon: space-invader.png
+  css: css/space-invader.css
+  template: space-invader
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+
+strigges:
+  label: Strigges
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/strigges
+  icon: strigges.png
+  css: css/strigges.css
+  template: strigges
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+
+sunset-delorean-left:
+  label: Sunset Delorean Left
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/sunset-delorean/left
+  icon: sunset-delorean-left.png
+  css: css/sunset-delorean-left.css
+  template: sunset-delorean-left
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+
+sunset-delorean-right:
+  label: Sunset Delorean Right
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/sunset-delorean/right
+  icon: sunset-delorean-right.png
+  css: css/sunset-delorean-right.css
+  template: sunset-delorean-right
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+
+thions-bottom:
+  label: Thions Bottom
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/thions/bottom
+  icon: thions-bottom.png
+  css: css/thions-bottom.css
+  template: thions-bottom
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: Fourth Column
+    fifth:
+      label: Fifth Column
+    sixth:
+      label: Sixth Column
+
+thions-top:
+  label: Thions Top
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/thions/top
+  icon: thions-top.png
+  css: css/thions-top.css
+  template: thions-top
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    fourth:
+      label: Fourth Column
+    fifth:
+      label: Fifth Column
+    sixth:
+      label: Sixth Column
+
+valmer-left:
+  label: Valmer Left
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/valmer/left
+  icon: valmer-left.png
+  css: css/valmer-left.css
+  template: valmer-left
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    footer:
+      label: Footer
+
+valmer-right:
+  label: Valmer Right
+  category: 'Columns: 3'
+  path: plugins/layouts/three-column/valmer/right
+  icon: valmer-right.png
+  css: css/valmer-right.css
+  template: valmer-right
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    third:
+      label: Third Column
+    footer:
+      label: Footer
+
 # TWO COLUMN
 donies:
   label: Donies
@@ -100,6 +400,158 @@ donies:
       label: Second Column
     footer:
       label: Footer
+
+frogger:
+  label: Frogger
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/frogger
+  icon: frogger.png
+  css: css/frogger.css
+  template: frogger
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    middle:
+      label: Middle Column
+    third:
+      label: Third Column
+    fourth:
+      label: Fourth Column
+    footer:
+      label: Footer
+
+pacman-left:
+  label: Pacman Left
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/pacman/left
+  icon: pacman-left.png
+  css: css/pacman-left.css
+  template: pacman-left
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    footer:
+      label: Footer
+
+pacman-right:
+  label: Pacman Right
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/pacman/right
+  icon: pacman-right.png
+  css: css/pacman-right.css
+  template: pacman-right
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+    footer:
+      label: Footer
+
+plakes-left:
+  label: Plakes Left
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/plakes/left
+  icon: plakes-left.png
+  css: css/plakes-left.css
+  template: plakes-left
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+plakes-right:
+  label: Plakes Right
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/plakes/right
+  icon: plakes-right.png
+  css: css/plakes-right.css
+  template: plakes-right
+  regions:
+    header:
+      label: Header
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+toucan:
+  label: Toucan
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/toucan
+  icon: toucan.png
+  css: css/toucan.css
+  template: toucan
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+trunks-left:
+  label: Trunks Left
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/trunks/left
+  icon: trunks-left.png
+  css: css/trunks-left.css
+  template: trunks-left
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+trunks-right:
+  label: Trunks Right
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/trunks/right
+  icon: trunks-right.png
+  css: css/trunks-right.css
+  template: trunks-right
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+wedge-left:
+  label: Wedge Left
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/wedge/left
+  icon: wedge-left.png
+  css: css/wedge-left.css
+  template: wedge-left
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
+
+wedge-right:
+  label: Wedge Right
+  category: 'Columns: 2'
+  path: plugins/layouts/two-column/wedge/right
+  icon: wedge-right.png
+  css: css/wedge-right.css
+  template: wedge-right
+  regions:
+    first:
+      label: First Column
+    second:
+      label: Second Column
 
 # One COLUMN
 basic:

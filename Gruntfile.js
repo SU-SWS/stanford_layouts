@@ -97,10 +97,25 @@ module.exports = function(grunt) {
           'plugins/layouts/three-column/robot/css/robot.css' : 'plugins/layouts/three-column/robot/scss/robot.scss',
           'plugins/layouts/three-column/space-invader/css/space-invader.css' : 'plugins/layouts/three-column/space-invader/scss/space-invader.scss',
           'plugins/layouts/three-column/strigges/css/strigges.css' : 'plugins/layouts/three-column/strigges/scss/strigges.scss',
-          'plugins/layouts/three-column/sunset-delorean/left/css/sunset-delorean-left.css' : 'plugins/layouts/three-column/cuttoner/left/scss/sunset-delorean-left.scss',
-          'plugins/layouts/three-column/sunset-delorean/right/css/sunset-delorean-right.css' : 'plugins/layouts/three-column/cuttoner/right/scss/sunset-delorean-right.scss',
+          'plugins/layouts/three-column/sunset-delorean/left/css/sunset-delorean-left.css' : 'plugins/layouts/three-column/sunset-delorean/left/scss/sunset-delorean-left.scss',
+          'plugins/layouts/three-column/sunset-delorean/right/css/sunset-delorean-right.css' : 'plugins/layouts/three-column/sunset-delorean/right/scss/sunset-delorean-right.scss',
+          'plugins/layouts/three-column/thions/right/css/thions-right.css' : 'plugins/layouts/three-column/thions/right/scss/thions-right.scss',
+          'plugins/layouts/three-column/thions/left/css/thions-left.css' : 'plugins/layouts/three-column/thions/left/scss/thions-left.scss',
+          'plugins/layouts/three-column/valmer/left/css/valmer-left.css' : 'plugins/layouts/three-column/valmer/left/scss/valmer-left.scss',
+          'plugins/layouts/three-column/valmer/right/css/valmer-right.css' : 'plugins/layouts/three-column/valmer/right/scss/valmer-right.scss',
           // Two Column.
           'plugins/layouts/two-column/donies/css/donies.css' : 'plugins/layouts/two-column/donies/scss/donies.scss',
+          'plugins/layouts/two-column/frogger/css/frogger.css' : 'plugins/layouts/two-column/frogger/scss/frogger.scss',
+          'plugins/layouts/two-column/pacman/right/css/pacman-right.css' : 'plugins/layouts/two-column/pacman/right/scss/pacman-right.scss',
+          'plugins/layouts/two-column/pacman/left/css/pacman-left.css' : 'plugins/layouts/two-column/pacman/left/scss/pacman-left.scss',
+          'plugins/layouts/two-column/plakes/right/css/plakes-right.css' : 'plugins/layouts/two-column/plakes/right/scss/plakes-right.scss',
+          'plugins/layouts/two-column/plakes/left/css/plakes-left.css' : 'plugins/layouts/two-column/plakes/left/scss/plakes-left.scss',
+          'plugins/layouts/two-column/toucan/right/css/toucan-right.css' : 'plugins/layouts/two-column/toucan/right/scss/toucan-right.scss',
+          'plugins/layouts/two-column/toucan/left/css/toucan-left.css' : 'plugins/layouts/two-column/toucan/left/scss/toucan-left.scss',
+          'plugins/layouts/two-column/trunks/right/css/trunks-right.css' : 'plugins/layouts/two-column/trunks/right/scss/trunks-right.scss',
+          'plugins/layouts/two-column/trunks/left/css/trunks-left.css' : 'plugins/layouts/two-column/trunks/left/scss/trunks-left.scss',
+          'plugins/layouts/two-column/wedge/right/css/wedge-right.css' : 'plugins/layouts/two-column/wedge/right/scss/wedge-right.scss',
+          'plugins/layouts/two-column/wedge/left/css/wedge-left.css' : 'plugins/layouts/two-column/wedge/left/scss/wedge-left.scss',
           // One Column.
           'plugins/layouts/one-column/basic/css/basic.css' : 'plugins/layouts/one-column/basic/scss/basic.scss'
         }
