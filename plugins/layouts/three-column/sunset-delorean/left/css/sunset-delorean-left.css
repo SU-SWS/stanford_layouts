@@ -9,9 +9,40 @@
   }
 }
 
+@media only screen and (min-width: 576px) {
+  .layout--sunset-delorean--left {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+  .layout--sunset-delorean--left::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .layout--sunset-delorean--left {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+  .layout--sunset-delorean--left::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .layout--sunset-delorean--left {
     padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
   }
   .layout--sunset-delorean--left::after {
     clear: both;
@@ -23,6 +54,9 @@
 @media only screen and (min-width: 1200px) {
   .layout--sunset-delorean--left {
     padding: 1em calc(50vw - (600px - 20px));
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
   }
   .layout--sunset-delorean--left::after {
     clear: both;
@@ -34,6 +68,9 @@
 @media only print {
   .layout--sunset-delorean--left {
     padding: 1em calc(((50vw /12) * 0) + 0.25in);
+    margin-left: -0.25in;
+    margin-right: -0.25in;
+    width: calc(100% + 0.5in);
   }
   .layout--sunset-delorean--left::after {
     clear: both;
@@ -42,52 +79,48 @@
   }
 }
 
-.layout--sunset-delorean--left::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media only screen and (min-width: 768px) {
-  .layout--sunset-delorean--left {
+  .layout--sunset-delorean--left .grid-collapse {
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
   }
 }
 
-.layout--sunset-delorean--left .grid-collapse {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px);
-  background-image: linear-gradient(to right, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px + 20px), transparent calc(25% - 25px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px + 20px), transparent calc(50% - 30px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px + 20px), transparent calc(75% - 35px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100%));
+.layout--sunset-delorean--left > section::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 @media only screen and (min-width: 768px) {
-  .layout--sunset-delorean--left > main {
+  .layout--sunset-delorean--left > section {
     width: calc(66.66667% - 33.33333px);
     float: left;
     margin-left: 20px;
   }
 }
 
-.layout--sunset-delorean--left > main .column--first-header {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px;
-}
-
-.layout--sunset-delorean--left > main .column--first-first,
-.layout--sunset-delorean--left > main .column--first-second {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px;
+@media only screen and (min-width: 576px) {
+  .layout--sunset-delorean--left > section .column--header {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 576px) {
-  .layout--sunset-delorean--left > main .column--first-first,
-  .layout--sunset-delorean--left > main .column--first-second {
+  .layout--sunset-delorean--left > section .column--first,
+  .layout--sunset-delorean--left > section .column--second {
     width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .layout--sunset-delorean--left > aside {
+    width: calc(100% - 40px);
     float: left;
     margin-left: 20px;
   }
@@ -99,12 +132,6 @@
     float: left;
     margin-left: 20px;
   }
-}
-
-.layout--sunset-delorean--left > aside .column--second-first {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px;
 }
 
 /*# sourceMappingURL=sunset-delorean-left.css.map */

@@ -321,8 +321,6 @@ thions-bottom:
       label: Fourth Column
     fifth:
       label: Fifth Column
-    sixth:
-      label: Sixth Column
 
 thions-top:
   label: Thions Top
@@ -342,8 +340,6 @@ thions-top:
       label: Fourth Column
     fifth:
       label: Fifth Column
-    sixth:
-      label: Sixth Column
 
 valmer-left:
   label: Valmer Left

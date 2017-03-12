@@ -99,8 +99,8 @@ module.exports = function(grunt) {
           'plugins/layouts/three-column/strigges/css/strigges.css' : 'plugins/layouts/three-column/strigges/scss/strigges.scss',
           'plugins/layouts/three-column/sunset-delorean/left/css/sunset-delorean-left.css' : 'plugins/layouts/three-column/sunset-delorean/left/scss/sunset-delorean-left.scss',
           'plugins/layouts/three-column/sunset-delorean/right/css/sunset-delorean-right.css' : 'plugins/layouts/three-column/sunset-delorean/right/scss/sunset-delorean-right.scss',
-          'plugins/layouts/three-column/thions/right/css/thions-right.css' : 'plugins/layouts/three-column/thions/right/scss/thions-right.scss',
-          'plugins/layouts/three-column/thions/left/css/thions-left.css' : 'plugins/layouts/three-column/thions/left/scss/thions-left.scss',
+          'plugins/layouts/three-column/thions/top/css/thions-top.css' : 'plugins/layouts/three-column/thions/top/scss/thions-top.scss',
+          'plugins/layouts/three-column/thions/bottom/css/thions-bottom.css' : 'plugins/layouts/three-column/thions/bottom/scss/thions-bottom.scss',
           'plugins/layouts/three-column/valmer/left/css/valmer-left.css' : 'plugins/layouts/three-column/valmer/left/scss/valmer-left.scss',
           'plugins/layouts/three-column/valmer/right/css/valmer-right.css' : 'plugins/layouts/three-column/valmer/right/scss/valmer-right.scss',
           // Two Column.

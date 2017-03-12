@@ -2,11 +2,6 @@
   clear: both;
 }
 
-.full-width img {
-  width: 100%;
-  min-width: 100%;
-}
-
 .full-width::after {
   clear: both;
   content: "";
@@ -15,18 +10,6 @@
 
 .layout--bricks {
   clear: both;
-}
-
-.layout--bricks .grid-collapse {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px);
-}
-
-.layout--bricks .grid-collapse::after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 @media only screen and (min-width: 0px) {
@@ -40,9 +23,40 @@
   }
 }
 
+@media only screen and (min-width: 576px) {
+  .layout--bricks {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+  .layout--bricks::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .layout--bricks {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+  .layout--bricks::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .layout--bricks {
     padding: 1em calc(((50vw /12) * 0) + 20px);
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
   }
   .layout--bricks::after {
     clear: both;
@@ -54,6 +68,9 @@
 @media only screen and (min-width: 1200px) {
   .layout--bricks {
     padding: 1em calc(50vw - (600px - 20px));
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
   }
   .layout--bricks::after {
     clear: both;
@@ -65,18 +82,15 @@
 @media only print {
   .layout--bricks {
     padding: 1em calc(((50vw /12) * 0) + 0.25in);
+    margin-left: -0.25in;
+    margin-right: -0.25in;
+    width: calc(100% + 0.5in);
   }
   .layout--bricks::after {
     clear: both;
     content: "";
     display: block;
   }
-}
-
-.layout--bricks::after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 .layout--bricks::after {

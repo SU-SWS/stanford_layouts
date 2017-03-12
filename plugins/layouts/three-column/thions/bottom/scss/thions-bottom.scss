@@ -4,14 +4,13 @@
 @import "decanter/core/utilities/decanter-utilities";
 
 .layout--thions-bottom {
-  @include responsive-container($default-container);
-  @include grid-container;
+  @include responsive-container($collapsed-but-last);
 
   .grid-collapse {
     @include grid-collapse;
     @include clearfix;
   }
-  
+
   .column {
     @include grid-media($media-sm) {
       @include grid-column(1 of 1);

@@ -4,23 +4,12 @@
 @import "decanter/core/utilities/decanter-utilities";
 
 .full-width {
-  img {
-    width: 100%;
-    min-width: 100%;
-  }
   @include clearfix;
   clear: both;
 }
 
 .layout--bricks {
-
-  .grid-collapse {
-    @include grid-collapse;
-    @include clearfix;
-  }
-
-  @include responsive-container($default-container);
-  @include grid-container;
+  @include responsive-container($collapsed-but-last);
   @include clearfix;
   clear: both;
 

@@ -5,8 +5,7 @@
 
 
 .layout--strigges {
-  @include responsive-container($default-container);
-  @include grid-container;
+  @include responsive-container($collapsed-but-last);
 
   .grid-collapse {
     @include grid-collapse;

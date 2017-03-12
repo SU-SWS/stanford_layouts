@@ -4,7 +4,7 @@
 @import "decanter/core/utilities/decanter-utilities";
 
 .layout--bars {
-  @include responsive-container($default-container);
+  @include responsive-container($collapsed-but-last);
   @include grid-container;
 
   .column {
@@ -17,5 +17,4 @@
     @include grid-collapse;
     @include clearfix;
   }
-
 }

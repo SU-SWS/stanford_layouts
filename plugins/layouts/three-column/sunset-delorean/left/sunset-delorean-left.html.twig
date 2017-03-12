@@ -16,24 +16,24 @@
 #}
 <main class="layout--sunset-delorean--left" {% if css_id %}{{ css_id }}{% endif %}>
   <section>
-    <header>
-      {{ content.header }}
-    </header>
     <div class="grid-collapse">
-      <div class="column--first-first">
+      <header class="column column--header">
+        {{ content.header }}
+      </header>
+
+      <div class="column column--first">
         {{ content.first }}
       </div>
 
-      <div class="column--first-second">
-        {{ content.second }}
+      <div class="column--second">
+          {{ content.second }}
       </div>
     </div>
-
   </section>
 
   <!-- The left sidebar //-->
-  <aside>
-    {{ content.third}}
+  <aside class="column column--third">
+    {{ content.third }}
   </aside>
 
 </main>

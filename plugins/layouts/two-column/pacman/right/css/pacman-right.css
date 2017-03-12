@@ -22,6 +22,28 @@
   }
 }
 
+@media only screen and (min-width: 576px) {
+  .layout--pacman--right {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+  }
+  .layout--pacman--right::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .layout--pacman--right {
+    padding: 1em calc(((50vw /12) * 0) + 20px);
+  }
+  .layout--pacman--right::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .layout--pacman--right {
     padding: 1em calc(((50vw /12) * 0) + 20px);
