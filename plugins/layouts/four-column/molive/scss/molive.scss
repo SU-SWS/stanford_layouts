@@ -5,7 +5,6 @@
 
 .layout--molive {
   @include responsive-container($default-container);
-  @include grid-container;
 
   .column--first,
   .column--second,

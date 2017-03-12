@@ -79,12 +79,6 @@
   }
 }
 
-.layout--battleship::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 .layout--battleship .grid-collapse {
   margin-left: -20px;
   margin-right: -20px;

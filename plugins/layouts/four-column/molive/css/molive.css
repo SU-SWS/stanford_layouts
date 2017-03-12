@@ -64,12 +64,6 @@
   }
 }
 
-.layout--molive::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media only screen and (min-width: 576px) {
   .layout--molive .column--first,
   .layout--molive .column--second,

@@ -64,12 +64,6 @@
   }
 }
 
-.layout--valmer-right::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media only screen and (min-width: 576px) {
   .layout--valmer-right .grid-collapse {
     margin-left: -20px;

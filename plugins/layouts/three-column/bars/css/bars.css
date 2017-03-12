@@ -79,12 +79,6 @@
   }
 }
 
-.layout--bars::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media only screen and (min-width: 576px) {
   .layout--bars .column {
     width: calc(33.33333% - 26.66667px);

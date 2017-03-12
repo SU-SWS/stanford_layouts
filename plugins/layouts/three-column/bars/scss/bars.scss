@@ -5,7 +5,6 @@
 
 .layout--bars {
   @include responsive-container($collapsed-but-last);
-  @include grid-container;
 
   .column {
     @include grid-media($media-sm) {
