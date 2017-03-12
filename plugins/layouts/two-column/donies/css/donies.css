@@ -64,12 +64,6 @@
   }
 }
 
-.layout--donies::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media only screen and (min-width: 576px) {
   .layout--donies .column--first,
   .layout--donies .column--second {

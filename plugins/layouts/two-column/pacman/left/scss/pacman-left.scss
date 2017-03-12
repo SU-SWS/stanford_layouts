@@ -5,7 +5,6 @@
 
 .layout--pacman--left {
   @include responsive-container($default-container);
-  @include grid-container;
 
   .grid-collapse {
     @include grid-media($media-sm) {
@@ -13,7 +12,7 @@
       @include clearfix;
     }
   }
-  
+
   .column--first {
     @include grid-media($media-sm) {
       @include grid-column(4 of 12);

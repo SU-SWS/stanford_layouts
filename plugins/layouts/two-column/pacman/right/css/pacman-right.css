@@ -1,16 +1,3 @@
-@media only screen and (min-width: 576px) {
-  .grid-collapse {
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
-  }
-  .grid-collapse::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
 @media only screen and (min-width: 0px) {
   .layout--pacman--right {
     padding: 1em calc(((50vw /12) * 0) + 20px);
@@ -77,10 +64,17 @@
   }
 }
 
-.layout--pacman--right::after {
-  clear: both;
-  content: "";
-  display: block;
+@media only screen and (min-width: 576px) {
+  .layout--pacman--right .grid-collapse {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+  }
+  .layout--pacman--right .grid-collapse::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 576px) {

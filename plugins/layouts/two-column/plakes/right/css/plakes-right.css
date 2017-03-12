@@ -64,12 +64,6 @@
   }
 }
 
-.layout--plakes--right::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 .layout--plakes--right .grid-collapse {
   margin-left: -20px;
   margin-right: -20px;

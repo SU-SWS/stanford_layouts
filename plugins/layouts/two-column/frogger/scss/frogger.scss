@@ -5,7 +5,6 @@
 
 .layout--frogger {
   @include responsive-container($default-container);
-  @include grid-container;
 
   .grid-collapse {
     @include grid-media($media-sm) {

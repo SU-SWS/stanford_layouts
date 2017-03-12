@@ -3,16 +3,15 @@
 // Decant.
 @import "decanter/core/utilities/decanter-utilities";
 
-.grid-collapse {
-  @include grid-media($media-sm) {
-    @include grid-collapse;
-    @include clearfix;
-  }
-}
-
 .layout--pacman--right {
   @include responsive-container($default-container);
-  @include grid-container;
+
+  .grid-collapse {
+    @include grid-media($media-sm) {
+      @include grid-collapse;
+      @include clearfix;
+    }
+  }
 
   .column--first {
     @include grid-media($media-sm) {

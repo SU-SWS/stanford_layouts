@@ -4,8 +4,7 @@
 @import "decanter/core/utilities/decanter-utilities";
 
 .layout--wedge--left {
-  @include responsive-container($default-container);
-  @include grid-container;
+  @include responsive-container($collapsed-but-last);
 
   @include grid-media($media-md) {
     @include flex-container('*', flex, row, wrap, flex-start);
