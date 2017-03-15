@@ -3,11 +3,15 @@
 // Decant.
 @import "decanter/core/utilities/decanter-utilities";
 
+// Modify the default container behaviour
+$new-xs: (xs: ( columns: 12, grid-media: $media-xs-only, v-space: 1em, max-width: false, grid-collapse: false ));
+$collapsed-but-last: map-merge($default-container-collapsed, $new-xs);
+
 .layout--wedge--left {
   @include responsive-container($collapsed-but-last);
 
   @include grid-media($media-md) {
-    @include flex-container('*', flex, row, wrap, flex-start);
+    @include flex-container();
   }
 
   .column--first {

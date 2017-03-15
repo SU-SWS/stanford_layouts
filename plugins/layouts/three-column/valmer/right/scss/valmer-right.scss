@@ -15,7 +15,7 @@
 
   section {
     @include grid-media($media-sm) {
-      @include flex-container('*', flex, row, wrap, flex-start);
+      @include flex-container();
     }
   }
 

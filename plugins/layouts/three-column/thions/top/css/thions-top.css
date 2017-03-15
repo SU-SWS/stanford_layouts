@@ -1,6 +1,6 @@
-@media only screen and (min-width: 0px) {
+@media only screen and (max-width: 575px) {
   .layout--thions-top {
-    padding: 1em calc(((50vw /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 20px);
   }
   .layout--thions-top::after {
     clear: both;
@@ -9,9 +9,9 @@
   }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .layout--thions-top {
-    padding: 1em calc(((50vw /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 20px);
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -23,9 +23,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .layout--thions-top {
-    padding: 1em calc(((50vw /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 20px);
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -39,7 +39,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .layout--thions-top {
-    padding: 1em calc(((50vw /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 20px);
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -53,7 +53,7 @@
 
 @media only screen and (min-width: 1200px) {
   .layout--thions-top {
-    padding: 1em calc(50vw - (600px - 20px));
+    padding: 1em calc(50% - (600px - 20px));
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -67,7 +67,7 @@
 
 @media only print {
   .layout--thions-top {
-    padding: 1em calc(((50vw /12) * 0) + 0.25in);
+    padding: 1em calc(((50% /12) * 0) + 0.25in);
     margin-left: -0.25in;
     margin-right: -0.25in;
     width: calc(100% + 0.5in);
