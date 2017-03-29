@@ -71,7 +71,8 @@ module.exports = function(grunt) {
           "node_modules/bourbon-neat/core",
           "node_modules/font-awesome/scss",
           "node_modules/neat-omega",
-          "node_modules"
+          "node_modules",
+          "scss"
         ],
         sourceMap: true,
         // This controls the compiled css and can be changed to nested, compact or compressed.

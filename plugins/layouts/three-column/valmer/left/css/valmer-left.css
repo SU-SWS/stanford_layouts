@@ -20,9 +20,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--valmer-left {
-    padding: 1em calc(((50% /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
   }
   .layout--valmer-left::after {
     clear: both;
@@ -31,9 +31,9 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--valmer-left {
-    padding: 1em calc(((50% /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
   }
   .layout--valmer-left::after {
     clear: both;
@@ -42,9 +42,9 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
   .layout--valmer-left {
-    padding: 1em calc(50% - (600px - 20px));
+    padding: 1em calc(50% - (750px - 60px));
   }
   .layout--valmer-left::after {
     clear: both;
@@ -87,9 +87,9 @@
 
 @media only screen and (min-width: 768px) {
   .layout--valmer-left .column--first {
-    width: calc(50% - 30px);
+    width: calc(50% - 60px);
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 
@@ -105,9 +105,9 @@
 @media only screen and (min-width: 768px) {
   .layout--valmer-left .column--second,
   .layout--valmer-left .column--third {
-    width: calc(25% - 25px);
+    width: calc(25% - 50px);
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 

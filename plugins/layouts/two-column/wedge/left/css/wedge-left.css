@@ -23,12 +23,12 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--wedge--left {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
+    margin-left: -40px;
+    margin-right: -40px;
+    width: calc(100% + 80px);
   }
   .layout--wedge--left::after {
     clear: both;
@@ -37,12 +37,12 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--wedge--left {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
+    margin-left: -40px;
+    margin-right: -40px;
+    width: calc(100% + 80px);
   }
   .layout--wedge--left::after {
     clear: both;
@@ -51,12 +51,12 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
   .layout--wedge--left {
-    padding: 1em calc(50% - (600px - 20px));
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(50% - (750px - 60px));
+    margin-left: -60px;
+    margin-right: -60px;
+    width: calc(100% + 120px);
   }
   .layout--wedge--left::after {
     clear: both;
@@ -100,9 +100,9 @@
 
 @media only screen and (min-width: 768px) {
   .layout--wedge--left .column--first {
-    width: calc(75% - 35px);
+    width: calc(75% - 70px);
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 
@@ -112,9 +112,9 @@
 
 @media only screen and (min-width: 768px) {
   .layout--wedge--left .column--second {
-    width: calc(25% - 25px);
+    width: calc(25% - 50px);
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 

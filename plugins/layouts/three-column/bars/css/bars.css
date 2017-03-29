@@ -23,12 +23,12 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--bars {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
+    margin-left: -40px;
+    margin-right: -40px;
+    width: calc(100% + 80px);
   }
   .layout--bars::after {
     clear: both;
@@ -37,12 +37,12 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--bars {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
+    margin-left: -40px;
+    margin-right: -40px;
+    width: calc(100% + 80px);
   }
   .layout--bars::after {
     clear: both;
@@ -51,12 +51,12 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
   .layout--bars {
-    padding: 1em calc(50% - (600px - 20px));
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
+    padding: 1em calc(50% - (750px - 60px));
+    margin-left: -60px;
+    margin-right: -60px;
+    width: calc(100% + 120px);
   }
   .layout--bars::after {
     clear: both;

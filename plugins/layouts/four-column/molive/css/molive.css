@@ -20,9 +20,9 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--molive {
-    padding: 1em calc(((50% /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
   }
   .layout--molive::after {
     clear: both;
@@ -31,9 +31,9 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--molive {
-    padding: 1em calc(((50% /12) * 0) + 20px);
+    padding: 1em calc(((50% /12) * 0) + 40px);
   }
   .layout--molive::after {
     clear: both;
@@ -42,9 +42,9 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
   .layout--molive {
-    padding: 1em calc(50% - (600px - 20px));
+    padding: 1em calc(50% - (750px - 60px));
   }
   .layout--molive::after {
     clear: both;
@@ -80,9 +80,9 @@
   .layout--molive .column--second,
   .layout--molive .column--third,
   .layout--molive .column--fourth {
-    width: calc(25% - 25px);
+    width: calc(25% - 50px);
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 
