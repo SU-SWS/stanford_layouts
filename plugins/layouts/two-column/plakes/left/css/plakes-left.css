@@ -64,6 +64,20 @@
   }
 }
 
+.layout--plakes--left section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.layout--plakes--left section > * {
+  flex: 0 0 auto;
+  box-sizing: inherit;
+}
+
 .layout--plakes--left .grid-collapse {
   margin-left: -20px;
   margin-right: -20px;
@@ -77,6 +91,7 @@
 }
 
 .layout--plakes--left .column--first {
+  order: 10;
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
@@ -84,6 +99,7 @@
 
 @media only screen and (min-width: 576px) {
   .layout--plakes--left .column--first {
+    order: 1;
     width: calc(33.33333% - 26.66667px);
     float: left;
     margin-left: 20px;
@@ -91,6 +107,7 @@
 }
 
 .layout--plakes--left .column--second {
+  order: 1;
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
@@ -98,6 +115,7 @@
 
 @media only screen and (min-width: 576px) {
   .layout--plakes--left .column--second {
+    order: 10;
     width: calc(66.66667% - 33.33333px);
     float: left;
     margin-left: 20px;
