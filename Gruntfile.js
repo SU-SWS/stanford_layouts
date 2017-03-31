@@ -83,6 +83,7 @@ module.exports = function(grunt) {
         files: {
           // Full Width Options.
           'plugins/layouts/full-width/bricks/css/bricks.css' : 'plugins/layouts/full-width/bricks/scss/bricks.scss',
+          'plugins/layouts/full-width/ibeam/css/ibeam.css' : 'plugins/layouts/full-width/ibeam/scss/ibeam.scss',
           // Four Column.
           'plugins/layouts/four-column/molive/css/molive.css' : 'plugins/layouts/four-column/molive/scss/molive.scss',
           // Three Column.

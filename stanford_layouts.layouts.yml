@@ -20,6 +20,23 @@ bricks:
     fourth:
       label: Fourth Column
 
+ibeam:
+  label: Ibeam
+  category: 'Full Width'
+  path: plugins/layouts/full-width/ibeam
+  icon: ibeam.png
+  css: css/ibeam.css
+  template: ibeam
+  regions:
+    hero:
+      label: Full Width Top
+    first:
+      label: First Column
+    full:
+      label: Full Width \#2
+    second:
+      label: Second Column
+      
 # FOUR COLUMN
 molive:
   label: Molive

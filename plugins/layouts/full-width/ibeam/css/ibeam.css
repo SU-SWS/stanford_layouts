@@ -1,0 +1,87 @@
+.full-width {
+  clear: both;
+}
+
+.full-width::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.layout--ibeam {
+  clear: both;
+}
+
+@media only screen and (max-width: 575px) {
+  .layout--ibeam {
+    padding: 1em calc(((50% /12) * 0) + 20px);
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .layout--ibeam {
+    padding: 1em calc(((50% /12) * 0) + 20px);
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .layout--ibeam {
+    padding: 1em calc(((50% /12) * 0) + 40px);
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
+  .layout--ibeam {
+    padding: 1em calc(((50% /12) * 0) + 40px);
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .layout--ibeam {
+    padding: 1em calc(50% - (750px - 60px));
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media only print {
+  .layout--ibeam {
+    padding: 1em calc(((50% /12) * 0) + 0.25in);
+  }
+  .layout--ibeam::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+.layout--ibeam::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/*# sourceMappingURL=ibeam.css.map */
