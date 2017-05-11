@@ -36,7 +36,7 @@ ibeam:
       label: Full Width \#2
     second:
       label: Second Column
-      
+
 # FOUR COLUMN
 molive:
   label: Molive
@@ -160,6 +160,8 @@ chess:
       label: Fifth Column
     sixth:
       label: Sixth Column
+    footer:
+      label: Footer
 
 cuttoner-left:
   label: Cuttoner Left
