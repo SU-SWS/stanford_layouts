@@ -1,10 +1,11 @@
 # FULL WIDTH
-bricks:
+layout_bricks:
   label: Bricks
   category: 'Full Width'
   path: plugins/layouts/full-width/bricks
   icon: bricks.png
-  css: css/bricks.css
+  library: stanford_layouts/bricks
+  default_region: first
   template: bricks
   regions:
     hero:
@@ -20,12 +21,13 @@ bricks:
     fourth:
       label: Fourth Column
 
-ibeam:
+layout_ibeam:
   label: Ibeam
   category: 'Full Width'
   path: plugins/layouts/full-width/ibeam
   icon: ibeam.png
-  css: css/ibeam.css
+  library: stanford_layouts/ibeam
+  default_region: first
   template: ibeam
   regions:
     hero:
@@ -38,12 +40,13 @@ ibeam:
       label: Second Column
 
 # FOUR COLUMN
-molive:
+layout_molive:
   label: Molive
   category: 'Columns: 4'
   path: plugins/layouts/four-column/molive
   icon: molive.png
-  css: css/molive.css
+  library: stanford_layouts/molive
+  default_region: first
   template: molive
   regions:
     header:
@@ -60,12 +63,13 @@ molive:
       label: Footer
 
 # THREE COLUMN
-bars:
+layout_bars:
   label: Bars
   category: 'Columns: 3'
   path: plugins/layouts/three-column/bars
   icon: bars.png
-  css: css/bars.css
+  library: stanford_layouts/bars
+  default_region: first
   template: bars
   regions:
     first:
@@ -75,12 +79,13 @@ bars:
     third:
       label: Third Column
 
-battleship:
+layout_battleship:
   label: Battleship
   category: 'Columns: 3'
   path: plugins/layouts/three-column/battleship
   icon: battleship.png
-  css: css/battleship.css
+  library: stanford_layouts/battleship
+  default_region: first
   template: battleship
   regions:
     first:
@@ -100,12 +105,13 @@ battleship:
     eighth:
       label: Eighth Column
 
-blastila-left:
+layout_blastila-left:
   label: Blastila Left
   category: 'Columns: 3'
   path: plugins/layouts/three-column/blastila/left
   icon: blastila-left.png
-  css: css/blastila-left.css
+  library: stanford_layouts/blastila-left
+  default_region: second
   template: blastila-left
   regions:
     header:
@@ -119,12 +125,13 @@ blastila-left:
     fifth:
       label: Fifth Column
 
-blastila-right:
+layout_blastila-right:
   label: Blastila Right
   category: 'Columns: 3'
   path: plugins/layouts/three-column/blastila/right
   icon: blastila-right.png
-  css: css/blastila-right.css
+  library: stanford_layouts/blastila-right
+  default_region: second
   template: blastila-right
   regions:
     header:
@@ -138,12 +145,13 @@ blastila-right:
     fifth:
       label: Fifth Column
 
-chess:
+layout_chess:
   label: Chess
   category: 'Columns: 3'
   path: plugins/layouts/three-column/chess
   icon: chess.png
-  css: css/chess.css
+  library: stanford_layouts/chess
+  default_region: first
   template: chess
   regions:
     header:
@@ -163,12 +171,13 @@ chess:
     footer:
       label: Footer
 
-cuttoner-left:
+layout_cuttoner-left:
   label: Cuttoner Left
   category: 'Columns: 3'
   path: plugins/layouts/three-column/cuttoner/left
   icon: cuttoner-left.png
-  css: css/cuttoner-left.css
+  library: stanford_layouts/cuttoner-left
+  default_region: first
   template: cuttoner-left
   regions:
     header:
@@ -182,12 +191,13 @@ cuttoner-left:
     footer:
       label: Footer
 
-cuttoner-right:
+layout_cuttoner-right:
   label: Cuttoner Right
   category: 'Columns: 3'
   path: plugins/layouts/three-column/cuttoner/right
   icon: cuttoner-right.png
-  css: css/cuttoner-right.css
+  library: stanford_layouts/cuttoner-right
+  default_region: first
   template: cuttoner-right
   regions:
     header:
@@ -201,12 +211,13 @@ cuttoner-right:
     footer:
       label: Footer
 
-percles-left:
+layout_percles-left:
   label: Percles Left
   category: 'Columns: 3'
   path: plugins/layouts/three-column/percles/left
   icon: percles-left.png
-  css: css/percles-left.css
+  library: stanford_layouts/percles-left
+  default_region: first
   template: percles-left
   regions:
     first:
@@ -220,12 +231,13 @@ percles-left:
     fifth:
       label: Fifth Column
 
-percles-right:
+layout_percles-right:
   label: Percles Right
   category: 'Columns: 3'
   path: plugins/layouts/three-column/percles/right
   icon: percles-right.png
-  css: css/percles-right.css
+  library: stanford_layouts/percles-right
+  default_region: first
   template: percles-right
   regions:
     first:
@@ -239,12 +251,13 @@ percles-right:
     fifth:
       label: Fifth Column
 
-robot:
+layout_robot:
   label: Robot
   category: 'Columns: 3'
   path: plugins/layouts/three-column/robot
   icon: robot.png
-  css: css/robot.css
+  library: stanford_layouts/robot
+  default_region: first
   template: robot
   regions:
     header:
@@ -256,12 +269,13 @@ robot:
     third:
       label: Third Column
 
-space-invader:
+layout_space-invader:
   label: Space Invader
   category: 'Columns: 3'
   path: plugins/layouts/three-column/space-invader
   icon: space-invader.png
-  css: css/space-invader.css
+  library: stanford_layouts/space-invader
+  default_region: first
   template: space-invader
   regions:
     header:
@@ -273,12 +287,13 @@ space-invader:
     third:
       label: Third Column
 
-strigges:
+layout_strigges:
   label: Strigges
   category: 'Columns: 3'
   path: plugins/layouts/three-column/strigges
   icon: strigges.png
-  css: css/strigges.css
+  library: stanford_layouts/strigges
+  default_region: first
   template: strigges
   regions:
     first:
@@ -288,12 +303,13 @@ strigges:
     third:
       label: Third Column
 
-sunset-delorean-left:
+layout_sunset-delorean-left:
   label: Sunset Delorean Left
   category: 'Columns: 3'
   path: plugins/layouts/three-column/sunset-delorean/left
   icon: sunset-delorean-left.png
-  css: css/sunset-delorean-left.css
+  library: stanford_layouts/sunset-delorean-left
+  default_region: first
   template: sunset-delorean-left
   regions:
     header:
@@ -305,12 +321,13 @@ sunset-delorean-left:
     third:
       label: Third Column
 
-sunset-delorean-right:
+layout_sunset-delorean-right:
   label: Sunset Delorean Right
   category: 'Columns: 3'
   path: plugins/layouts/three-column/sunset-delorean/right
   icon: sunset-delorean-right.png
-  css: css/sunset-delorean-right.css
+  library: stanford_layouts/sunset-delorean-right
+  default_region: first
   template: sunset-delorean-right
   regions:
     header:
@@ -322,12 +339,13 @@ sunset-delorean-right:
     third:
       label: Third Column
 
-thions-bottom:
+layout_thions-bottom:
   label: Thions Bottom
   category: 'Columns: 3'
   path: plugins/layouts/three-column/thions/bottom
   icon: thions-bottom.png
-  css: css/thions-bottom.css
+  library: stanford_layouts/thions-bottom
+  default_region: first
   template: thions-bottom
   regions:
     first:
@@ -341,12 +359,13 @@ thions-bottom:
     fifth:
       label: Fifth Column
 
-thions-top:
+layout_thions-top:
   label: Thions Top
   category: 'Columns: 3'
   path: plugins/layouts/three-column/thions/top
   icon: thions-top.png
-  css: css/thions-top.css
+  library: stanford_layouts/thions-top
+  default_region: first
   template: thions-top
   regions:
     first:
@@ -360,12 +379,13 @@ thions-top:
     fifth:
       label: Fifth Column
 
-valmer-left:
+layout_valmer-left:
   label: Valmer Left
   category: 'Columns: 3'
   path: plugins/layouts/three-column/valmer/left
   icon: valmer-left.png
-  css: css/valmer-left.css
+  library: stanford_layouts/valmer-left
+  default_region: first
   template: valmer-left
   regions:
     header:
@@ -379,12 +399,13 @@ valmer-left:
     footer:
       label: Footer
 
-valmer-right:
+layout_valmer-right:
   label: Valmer Right
   category: 'Columns: 3'
   path: plugins/layouts/three-column/valmer/right
   icon: valmer-right.png
-  css: css/valmer-right.css
+  library: stanford_layouts/valmer-right
+  default_region: first
   template: valmer-right
   regions:
     header:
@@ -399,12 +420,13 @@ valmer-right:
       label: Footer
 
 # TWO COLUMN
-donies:
+layout_donies:
   label: Donies
   category: 'Columns: 2'
   path: plugins/layouts/two-column/donies
   icon: donies.png
-  css: css/donies.css
+  library: stanford_layouts/donies
+  default_region: first
   template: donies
   regions:
     header:
@@ -416,12 +438,13 @@ donies:
     footer:
       label: Footer
 
-frogger:
+layout_frogger:
   label: Frogger
   category: 'Columns: 2'
   path: plugins/layouts/two-column/frogger
   icon: frogger.png
-  css: css/frogger.css
+  library: stanford_layouts/frogger
+  default_region: first
   template: frogger
   regions:
     header:
@@ -439,12 +462,13 @@ frogger:
     footer:
       label: Footer
 
-pacman-left:
+layout_pacman-left:
   label: Pacman Left
   category: 'Columns: 2'
   path: plugins/layouts/two-column/pacman/left
   icon: pacman-left.png
-  css: css/pacman-left.css
+  library: stanford_layouts/pacman-left
+  default_region: first
   template: pacman-left
   regions:
     header:
@@ -456,12 +480,13 @@ pacman-left:
     footer:
       label: Footer
 
-pacman-right:
+layout_pacman-right:
   label: Pacman Right
   category: 'Columns: 2'
   path: plugins/layouts/two-column/pacman/right
   icon: pacman-right.png
-  css: css/pacman-right.css
+  library: stanford_layouts/pacman-right
+  default_region: first
   template: pacman-right
   regions:
     header:
@@ -473,12 +498,13 @@ pacman-right:
     footer:
       label: Footer
 
-plakes-left:
+layout_plakes-left:
   label: Plakes Left
   category: 'Columns: 2'
   path: plugins/layouts/two-column/plakes/left
   icon: plakes-left.png
-  css: css/plakes-left.css
+  library: stanford_layouts/plakes-left
+  default_region: first
   template: plakes-left
   regions:
     header:
@@ -488,12 +514,13 @@ plakes-left:
     second:
       label: Second Column
 
-plakes-right:
+layout_plakes-right:
   label: Plakes Right
   category: 'Columns: 2'
   path: plugins/layouts/two-column/plakes/right
   icon: plakes-right.png
-  css: css/plakes-right.css
+  library: stanford_layouts/plakes-right
+  default_region: first
   template: plakes-right
   regions:
     header:
@@ -503,12 +530,13 @@ plakes-right:
     second:
       label: Second Column
 
-toucan:
+layout_toucan:
   label: Toucan
   category: 'Columns: 2'
   path: plugins/layouts/two-column/toucan
   icon: toucan.png
-  css: css/toucan.css
+  library: stanford_layouts/toucan
+  default_region: first
   template: toucan
   regions:
     first:
@@ -516,12 +544,13 @@ toucan:
     second:
       label: Second Column
 
-trunks-left:
+layout_trunks-left:
   label: Trunks Left
   category: 'Columns: 2'
   path: plugins/layouts/two-column/trunks/left
   icon: trunks-left.png
-  css: css/trunks-left.css
+  library: stanford_layouts/trunks-left
+  default_region: first
   template: trunks-left
   regions:
     first:
@@ -529,12 +558,13 @@ trunks-left:
     second:
       label: Second Column
 
-trunks-right:
+layout_trunks-right:
   label: Trunks Right
   category: 'Columns: 2'
   path: plugins/layouts/two-column/trunks/right
   icon: trunks-right.png
-  css: css/trunks-right.css
+  library: stanford_layouts/trunks-right
+  default_region: first
   template: trunks-right
   regions:
     first:
@@ -542,12 +572,13 @@ trunks-right:
     second:
       label: Second Column
 
-wedge-left:
+layout_wedge-left:
   label: Wedge Left
   category: 'Columns: 2'
   path: plugins/layouts/two-column/wedge/left
   icon: wedge-left.png
-  css: css/wedge-left.css
+  library: stanford_layouts/wedge-left
+  default_region: first
   template: wedge-left
   regions:
     first:
@@ -555,12 +586,13 @@ wedge-left:
     second:
       label: Second Column
 
-wedge-right:
+layout_wedge-right:
   label: Wedge Right
   category: 'Columns: 2'
   path: plugins/layouts/two-column/wedge/right
   icon: wedge-right.png
-  css: css/wedge-right.css
+  library: stanford_layouts/wedge-right
+  default_region: first
   template: wedge-right
   regions:
     first:
@@ -569,12 +601,13 @@ wedge-right:
       label: Second Column
 
 # One COLUMN
-basic:
+layout_basic:
   label: Basic
   category: 'Columns: 1'
   path: plugins/layouts/one-column/basic
   icon: basic.png
-  css: css/basic.css
+  library: stanford_layouts/bricks
+  default_region: first
   template: basic
   regions:
     content:

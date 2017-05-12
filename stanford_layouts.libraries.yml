@@ -1,68 +1,202 @@
-# Drupal 8 uses the SMACSS system to conceptually categorize CSS rules. Note
-# that some SMACSS nomenclature has been changed to avoid confusion with
-# existing Drupal terminology.
-#
-# Base
-# Base rules consist of styling for HTML elements only, such as used in a CSS
-# reset or Normalize.css. Base rules should never include class selectors.
-#
-# To avoid ‘undoing’ styles in components, base styles should reflect the
-# simplest possible appearance of each element. For example, the simplest usage
-# of the ul element may be completely unstyled, removing list markers and
-# indents and relying on a component class for other applications.
-#
-# Layout
-# Arrangement of elements on the page, including grid systems.
-#
-# " Grid systems should be thought of as shelves. They contain content but are
-# not content in themselves. You put up your shelves then fill them with your
-# stuff [i.e. components]. – Harry Roberts, CSS Guidelines "
-#
-# Component (SMACSS “module”)
-# Reusable, discrete UI elements; components should form the bulk of
-# Drupal’s CSS.
-#
-# State
-# Styles that deal with transient changes to a component’s appearance. Often,
-# these are client-side changes that occur as the user interacts with the page,
-# such as hovering links or opening a modal dialog. In some cases, states are
-# static for the life of the page and are set from the server, such as the
-# active element in main navigation. The main ways to style state are:
-#  * Custom classes, often but not always applied via JavaScript. These should be
-#    prefixed with .is-, e.g. .is-transitioning, .is-open;
-#  * pseudo-classes, such as :hover and :checked;
-#  * HTML attributes with state semantics, such as details[open];
-#  * media queries: styles that alter appearance based on the immediate browser
-#    environment.
-#
-# Theme
-# Purely visual styling, such as border, box-shadow, colors and backgrounds,
-# font properties, etc. Ideally, these should be separated enough from a
-# component’s structure to be “swappable”, and omitting these entirely should
-# not break the component’s functionality or basic usability.
-#
-# EXAMPLE:
-#
-# example_name:
-#   version: VERSION
-#   css:
-#     base:
-#       css/print.css: { media: print }
-#     layout:
-#       css/layout.css: {}
-#     component:
-#       css/components.css: {}
-#     state:
-#       css/states.css: {}
-#     theme:
-#       css/theme.css: {}
-#   js:
-#     js/script.js: {}
-#   dependencies:
-#     - core/jquery
+# FULL WIDTH
+bricks:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/full-width/css/bricks/bricks.css: {}
 
-# base:
-#   version: VERSION
-#   css:
-#     layout:
-#       css/layout.css: {}
+ibeam:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/full-width/css/ibeam/ibeam.css: {}
+
+# FOUR COLUMN
+molive:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/four-column/css/molive/molive.css: {}
+
+# THREE COLUMN
+bars:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/bars/bars.css: {}
+
+battleship:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/battleship/battleship.css: {}
+
+blastila-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/blastila/left/blastila-left.css: {}
+
+blastila-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/blastila/right/blastila-right.css: {}
+
+chess:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/chess/chess.css: {}
+
+cuttoner-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/cuttoner/left/cuttoner-left.css: {}
+
+cuttoner-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/cuttoner/right/cuttoner-right.css: {}
+
+percles-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/percles/left/percles-left.css: {}
+
+percles-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/percles/right/percles-right.css: {}
+
+robot:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/robot.css: {}
+
+space-invader:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/space-invader/space-invader.css: {}
+
+strigges:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/strigges/strigges.css: {}
+
+sunset-delorean-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/sunset-delorean/left/sunset-delorean-left.css: {}
+
+sunset-delorean-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/sunset-delorean/right/sunset-delorean-right.css: {}
+
+thions-bottom:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/thions/bottom/thions-bottom.css: {}
+
+thions-top:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/thions/top/thions-top.css: {}
+
+valmer-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/valemer/left/valmer-left.css: {}
+
+valmer-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/three-column/css/valmer/right/valmer-right.css: {}
+
+# TWO COLUMN
+donies:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/donies/donies.css: {}
+
+frogger:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/frogger/frogger.css: {}
+
+pacman-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/pacman/left/pacman-left.css: {}
+
+pacman-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/pacman/right/pacman-right.css: {}
+
+plakes-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/plakes/left/plakes-left.css: {}
+
+plakes-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/plakes/right/plakes-right.css: {}
+
+toucan:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/toucan/toucan.css: {}
+
+trunks-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/trunks/left/trunks-left.css: {}
+
+trunks-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/trunks/right/trunks-right.css: {}
+
+wedge-left:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/wedge/left/wedge-left.css: {}
+
+wedge-right:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/css/wedge/right/wedge-right.css: {}
+
+# One COLUMN
+basic:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/one-column/basic/css/basic.css: {}
