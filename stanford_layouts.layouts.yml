@@ -606,7 +606,7 @@ layout_basic:
   category: 'Columns: 1'
   path: plugins/layouts/one-column/basic
   icon: basic.png
-  library: stanford_layouts/bricks
+  library: stanford_layouts/basic
   default_region: first
   template: basic
   regions:
