@@ -3,196 +3,196 @@ bricks:
   version: VERSION
   css:
     layout:
-      plugins/layouts/full-width/css/bricks/bricks.css: {}
+      plugins/layouts/full-width/bricks/css/bricks.css: {}
 
 ibeam:
   version: VERSION
   css:
     layout:
-      plugins/layouts/full-width/css/ibeam/ibeam.css: {}
+      plugins/layouts/full-width/ibeam/css/ibeam.css: {}
 
 # FOUR COLUMN
 molive:
   version: VERSION
   css:
     layout:
-      plugins/layouts/four-column/css/molive/molive.css: {}
+      plugins/layouts/four-column/molive/css/molive.css: {}
 
 # THREE COLUMN
 bars:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/bars/bars.css: {}
+      plugins/layouts/three-column/bars/css/bars.css: {}
 
 battleship:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/battleship/battleship.css: {}
+      plugins/layouts/three-column/battleship/css/battleship.css: {}
 
 blastila-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/blastila/left/blastila-left.css: {}
+      plugins/layouts/three-column/blastila/left/css/blastila-left.css: {}
 
 blastila-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/blastila/right/blastila-right.css: {}
+      plugins/layouts/three-column/blastila/right/css/blastila-right.css: {}
 
 chess:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/chess/chess.css: {}
+      plugins/layouts/three-column/chess/css/chess.css: {}
 
 cuttoner-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/cuttoner/left/cuttoner-left.css: {}
+      plugins/layouts/three-column/cuttoner/left/css/cuttoner-left.css: {}
 
 cuttoner-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/cuttoner/right/cuttoner-right.css: {}
+      plugins/layouts/three-column/cuttoner/right/css/cuttoner-right.css: {}
 
 percles-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/percles/left/percles-left.css: {}
+      plugins/layouts/three-column/percles/left/css/percles-left.css: {}
 
 percles-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/percles/right/percles-right.css: {}
+      plugins/layouts/three-column/percles/right/css/percles-right.css: {}
 
 robot:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/robot.css: {}
+      plugins/layouts/three-column/robot/css/robot.css: {}
 
 space-invader:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/space-invader/space-invader.css: {}
+      plugins/layouts/three-column/space-invader/css/space-invader.css: {}
 
 strigges:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/strigges/strigges.css: {}
+      plugins/layouts/three-column/strigges/css/strigges.css: {}
 
 sunset-delorean-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/sunset-delorean/left/sunset-delorean-left.css: {}
+      plugins/layouts/three-column/sunset-delorean/left/css/sunset-delorean-left.css: {}
 
 sunset-delorean-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/sunset-delorean/right/sunset-delorean-right.css: {}
+      plugins/layouts/three-column/sunset-delorean/right/css/sunset-delorean-right.css: {}
 
 thions-bottom:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/thions/bottom/thions-bottom.css: {}
+      plugins/layouts/three-column/thions/bottom/css/thions-bottom.css: {}
 
 thions-top:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/thions/top/thions-top.css: {}
+      plugins/layouts/three-column/thions/top/css/thions-top.css: {}
 
 valmer-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/valemer/left/valmer-left.css: {}
+      plugins/layouts/three-column/valemer/left/css/valmer-left.css: {}
 
 valmer-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/css/valmer/right/valmer-right.css: {}
+      plugins/layouts/three-column/valmer/right/css/valmer-right.css: {}
 
 # TWO COLUMN
 donies:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/donies/donies.css: {}
+      plugins/layouts/two-column/donies/css/donies.css: {}
 
 frogger:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/frogger/frogger.css: {}
+      plugins/layouts/two-column/frogger/css/frogger.css: {}
 
 pacman-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/pacman/left/pacman-left.css: {}
+      plugins/layouts/two-column/pacman/left/css/pacman-left.css: {}
 
 pacman-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/pacman/right/pacman-right.css: {}
+      plugins/layouts/two-column/pacman/right/css/pacman-right.css: {}
 
 plakes-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/plakes/left/plakes-left.css: {}
+      plugins/layouts/two-column/plakes/left/css/plakes-left.css: {}
 
 plakes-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/plakes/right/plakes-right.css: {}
+      plugins/layouts/two-column/plakes/right/css/plakes-right.css: {}
 
 toucan:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/toucan/toucan.css: {}
+      plugins/layouts/two-column/toucan/css/toucan.css: {}
 
 trunks-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/trunks/left/trunks-left.css: {}
+      plugins/layouts/two-column/trunks/left/css/trunks-left.css: {}
 
 trunks-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/trunks/right/trunks-right.css: {}
+      plugins/layouts/two-column/trunks/right/css/trunks-right.css: {}
 
 wedge-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/wedge/left/wedge-left.css: {}
+      plugins/layouts/two-column/wedge/left/css/wedge-left.css: {}
 
 wedge-right:
   version: VERSION
   css:
     layout:
-      plugins/layouts/two-column/css/wedge/right/wedge-right.css: {}
+      plugins/layouts/two-column/wedge/right/css/wedge-right.css: {}
 
 # One COLUMN
 basic:
