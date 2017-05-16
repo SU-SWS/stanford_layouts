@@ -26,9 +26,6 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .layout--bricks {
     padding: 1em calc(((50% /12) * 0) + 20px);
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
   }
   .layout--bricks::after {
     clear: both;
@@ -40,9 +37,6 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--bricks {
     padding: 1em calc(((50% /12) * 0) + 40px);
-    margin-left: -40px;
-    margin-right: -40px;
-    width: calc(100% + 80px);
   }
   .layout--bricks::after {
     clear: both;
@@ -54,9 +48,6 @@
 @media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--bricks {
     padding: 1em calc(((50% /12) * 0) + 40px);
-    margin-left: -40px;
-    margin-right: -40px;
-    width: calc(100% + 80px);
   }
   .layout--bricks::after {
     clear: both;
@@ -68,9 +59,6 @@
 @media only screen and (min-width: 1500px) {
   .layout--bricks {
     padding: 1em calc(50% - (750px - 60px));
-    margin-left: -60px;
-    margin-right: -60px;
-    width: calc(100% + 120px);
   }
   .layout--bricks::after {
     clear: both;
@@ -82,9 +70,6 @@
 @media only print {
   .layout--bricks {
     padding: 1em calc(((50% /12) * 0) + 0.25in);
-    margin-left: -0.25in;
-    margin-right: -0.25in;
-    width: calc(100% + 0.5in);
   }
   .layout--bricks::after {
     clear: both;
