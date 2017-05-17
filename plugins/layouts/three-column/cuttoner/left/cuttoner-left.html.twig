@@ -15,12 +15,12 @@
  */
 #}
 <div class="layout--cuttoner-left" {% if css_id %}{{ css_id }}{% endif %}>
-  <section class="column column--first">
-    <header>
-      {{ content.header }}
-    </header>
+  <div class="grid-collapse">
+    <section class="column column--first">
+      <header>
+        {{ content.header }}
+      </header>
 
-    <div class="grid-collapse">
       <div class="column column--first-first">
         {{ content.first }}
       </div>
@@ -29,13 +29,12 @@
         {{ content.second }}
       </div>
 
-    </div>
-    <footer>
-      {{ content.footer }}
-    </footer>
-  </section>
-
-  <aside class="column column--second">
-    {{ content.third }}
-  </aside>
+      <footer>
+        {{ content.footer }}
+      </footer>
+    </section>
+    <aside class="column column--second">
+      {{ content.third }}
+    </aside>
+  </div>
 </div>

@@ -46,7 +46,7 @@ $base-font-size: 18px;
 ///
 /// @group settings
 $bourbon: (
-    "modular-scale-ratio": 1.25,
+  "modular-scale-ratio": 1.25,
 );
 /// Max-container width. Edge-to-edge. Gutters are calculated inside the max-width.
 /// This is also used to generate our XL breakpoint.
@@ -98,11 +98,11 @@ $grid-columns: 12;
 ///
 /// @group settings
 $neat-grid: (
-    columns: $grid-columns,
-    gutter:  $gutter,
-    media: null,
-    color: rgba(#00d4ff, 0.25),
-    direction: ltr,
+  columns: $grid-columns,
+  gutter:  $gutter,
+  media: null,
+  color: rgba(#00d4ff, 0.25),
+  direction: ltr,
 );
 
 // Lower boundaries

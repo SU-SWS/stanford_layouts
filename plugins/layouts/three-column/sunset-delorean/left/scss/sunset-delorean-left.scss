@@ -15,7 +15,7 @@ $collapsed-but-last: map-merge($default-container, $new-xs);
 
   .grid-collapse {
     @include grid-media($media-md) {
-      @include grid-collapse;
+      @include responsive-grid-collapse;
     }
   }
 

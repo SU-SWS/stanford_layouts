@@ -23,7 +23,7 @@
 
   .grid-collapse {
     @include grid-media($media-sm) {
-      @include grid-collapse;
+      @include responsive-grid-collapse;
       @include clearfix;
     }
   }

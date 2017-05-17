@@ -10,10 +10,8 @@
   @include responsive-container($default-container);
 
   .grid-collapse {
-    @include grid-media($media-sm) {
-      @include grid-collapse;
-      @include clearfix;
-    }
+    @include responsive-grid-collapse;
+    @include clearfix;
   }
 
   .column {
@@ -24,6 +22,10 @@
     @include grid-media($media-md) {
       @include grid-column(1 of 3);
     }
+  }
+
+  .column--fourth {
+    clear: left;
   }
 
 }

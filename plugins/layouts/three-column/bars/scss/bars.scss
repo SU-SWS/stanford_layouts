@@ -10,7 +10,7 @@
   @include responsive-container($default-container);
 
   .grid-collapse {
-    @include grid-collapse;
+    @include responsive-grid-collapse;
     @include clearfix;
   }
   
@@ -21,7 +21,7 @@
   }
 
   .grid-collapse {
-    @include grid-collapse;
+    @include responsive-grid-collapse;
     @include clearfix;
   }
 }
