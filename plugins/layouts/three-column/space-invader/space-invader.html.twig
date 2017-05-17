@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--space-invader" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--space-invader" {% if css_id %}{{ css_id }}{% endif %}>
 
   <header class="column column--header">
     {{ content.header }}
@@ -33,4 +33,4 @@
       {{ content.third }}
     </div>
   </section>
-</main>
+</div>

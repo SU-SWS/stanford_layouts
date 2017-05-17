@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--valmer-left" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--valmer-left" {% if css_id %}{{ css_id }}{% endif %}>
 
   <header class="column column--header">
     {{ content.header }}
@@ -38,4 +38,4 @@
     {{ content.footer }}
   </footer>
 
-</main>
+</div>

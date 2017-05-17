@@ -14,12 +14,14 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--trunks--right" {% if css_id %}{{ css_id }}{% endif %}>
-  <div class="column column--first">
-    {{ content.first }}
-  </div>
+<div class="layout--trunks--right" {% if css_id %}{{ css_id }}{% endif %}>
+  <section class="grid-collapse">
+    <div class="column column--first">
+      {{ content.first }}
+    </div>
 
-  <div class="column column--second">
-    {{ content.second }}
-  </div>
-</main>
+    <div class="column column--second">
+      {{ content.second }}
+    </div>
+  </section>
+</div>

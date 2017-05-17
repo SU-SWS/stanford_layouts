@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--frogger" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--frogger" {% if css_id %}{{ css_id }}{% endif %}>
   <header>
     {{ content.header }}
   </header>
@@ -42,4 +42,4 @@
   <footer>
     {{ content.footer }}
   </footer>
-</main>
+</div>

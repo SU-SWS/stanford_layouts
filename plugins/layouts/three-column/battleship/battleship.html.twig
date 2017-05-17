@@ -14,38 +14,38 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--battleship" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--battleship" {% if css_id %}{{ css_id }}{% endif %}>
+  <section class="grid-collapse">
+    <header class="column column--first">
+      {{ content.first }}
+    </header>
 
-  <header class="column column--first">
-    {{ content.first }}
-  </header>
+    <div class="column column--second">
+      {{ content.second }}
+    </div>
 
-  <div class="column column--second">
-    {{ content.second }}
-  </div>
+    <div class="column column--third">
+      {{ content.third }}
+    </div>
 
-  <div class="column column--third">
-    {{ content.third }}
-  </div>
+    <div class="column column--fourth">
+      {{ content.fourth }}
+    </div>
 
-  <div class="column column--fourth">
-    {{ content.fourth }}
-  </div>
+    <div class="column column--fifth">
+      {{ content.fifth }}
+    </div>
 
-  <div class="column column--fifth">
-    {{ content.fifth }}
-  </div>
+    <div class="column column--sixth">
+      {{ content.sixth }}
+    </div>
 
-  <div class="column column--sixth">
-    {{ content.sixth }}
-  </div>
+    <div class="column column--seventh">
+      {{ content.seventh }}
+    </div>
 
-  <div class="column column--seventh">
-    {{ content.seventh }}
-  </div>
-
-  <div class="column column--eighth">
-    {{ content.eighth }}
-  </div>
-
-</main>
+    <div class="column column--eighth">
+      {{ content.eighth }}
+    </div>
+  </section>
+</div>

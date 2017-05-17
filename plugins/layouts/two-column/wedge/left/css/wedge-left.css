@@ -79,6 +79,18 @@
   }
 }
 
+.layout--wedge--left .grid-collapse {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+}
+
+.layout--wedge--left .grid-collapse::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .layout--wedge--left .column--first {
   order: 10;
 }

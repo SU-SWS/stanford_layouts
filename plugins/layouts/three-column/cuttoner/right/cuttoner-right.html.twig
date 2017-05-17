@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--cuttoner-right" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--cuttoner-right" {% if css_id %}{{ css_id }}{% endif %}>
   <section class="column column--first">
 
     <header>
@@ -38,4 +38,4 @@
   <aside class="column column--second">
     {{ content.third }}
   </aside>
-</main>
+</div>

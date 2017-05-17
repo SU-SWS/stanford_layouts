@@ -64,6 +64,18 @@
   }
 }
 
+.layout--trunks--left .grid-collapse {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+}
+
+.layout--trunks--left .grid-collapse::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media only screen and (min-width: 576px) {
   .layout--trunks--left .column--first {
     width: calc(33.33333% - 26.66667px);

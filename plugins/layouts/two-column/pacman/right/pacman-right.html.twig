@@ -14,7 +14,7 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<main class="layout--pacman--right" {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--pacman--right" {% if css_id %}{{ css_id }}{% endif %}>
   <header class="column">
     {{ content.header }}
   </header>
@@ -33,4 +33,4 @@
     {{ content.footer }}
   </footer>
 
-</main>
+</div>

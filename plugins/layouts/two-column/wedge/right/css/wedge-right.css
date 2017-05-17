@@ -64,6 +64,18 @@
   }
 }
 
+.layout--wedge--right .grid-collapse {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+}
+
+.layout--wedge--right .grid-collapse::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
   .layout--wedge--right .column--first {
     width: calc(75% - 70px);

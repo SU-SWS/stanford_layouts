@@ -64,6 +64,18 @@
   }
 }
 
+.layout--toucan .grid-collapse {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+}
+
+.layout--toucan .grid-collapse::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media only screen and (min-width: 576px) {
   .layout--toucan .column--first,
   .layout--toucan .column--second {
