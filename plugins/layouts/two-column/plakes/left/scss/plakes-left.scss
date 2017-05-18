@@ -30,7 +30,7 @@ $column-second: (
   @include responsive-container($default-container);
 
   section {
-    @include flex-container();
+    @include flex-container(('justify-content': 'flex-start'));
   }
 
   .grid-collapse {

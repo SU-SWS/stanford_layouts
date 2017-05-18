@@ -214,7 +214,23 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 575px) {
+  .layout--blastila--right .column--third--first {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .layout--blastila--right .column--third--first {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--blastila--right .column--third--first {
     width: calc(100% - 80px);
     float: left;
@@ -222,7 +238,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--blastila--right .column--third--first {
     width: calc(100% - 80px);
     float: left;
@@ -246,7 +262,25 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 575px) {
+  .layout--blastila--right .column--third-second,
+  .layout--blastila--right .column--third-third {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .layout--blastila--right .column--third-second,
+  .layout--blastila--right .column--third-third {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--blastila--right .column--third-second,
   .layout--blastila--right .column--third-third {
     width: calc(50% - 60px);
@@ -255,10 +289,10 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--blastila--right .column--third-second,
   .layout--blastila--right .column--third-third {
-    width: calc(100% - 80px);
+    width: calc(50% - 60px);
     float: left;
     margin-left: 40px;
   }
@@ -267,7 +301,7 @@
 @media only screen and (min-width: 1500px) {
   .layout--blastila--right .column--third-second,
   .layout--blastila--right .column--third-third {
-    width: calc(100% - 120px);
+    width: calc(50% - 90px);
     float: left;
     margin-left: 60px;
   }
@@ -276,7 +310,7 @@
 @media only print {
   .layout--blastila--right .column--third-second,
   .layout--blastila--right .column--third-third {
-    width: calc(100% - 0.5in);
+    width: calc(50% - 0.375in);
     float: left;
     margin-left: 0.25in;
   }

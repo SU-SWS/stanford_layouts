@@ -24,6 +24,25 @@ $column-third: (
   'print': 2 of 3
 );
 
+$column-one: (
+  'xs': 1 of 1,
+  'sm': 1 of 1,
+  'md': 1 of 1,
+  'lg': 1 of 1,
+  'xl': 1 of 1,
+  'print': 1 of 1
+);
+
+$column-fifty: (
+  'xs': 1 of 1,
+  'sm': 1 of 1,
+  'md': 1 of 2,
+  'lg': 1 of 2,
+  'xl': 1 of 2,
+  'print': 1 of 2
+);
+
+
 .layout--blastila--right {
   @include responsive-container($default-container);
 
@@ -41,34 +60,12 @@ $column-third: (
   }
 
   .column--third--first {
-    @include grid-media($media-md) {
-      @include grid-column(1 of 1);
-    }
-    @include grid-media($media-lg) {
-      @include grid-column(1 of 1);
-    }
-    @include grid-media($media-xl) {
-      @include grid-column(1 of 1);
-    }
-    @include grid-media($media-print) {
-      @include grid-column(1 of 1);
-    }
+    @include responsive-grid-column($column-one, $default-container);
   }
 
   .column--third-second,
   .column--third-third {
-    @include grid-media($media-md) {
-      @include grid-column(1 of 2);
-    }
-    @include grid-media($media-lg) {
-      @include grid-column(1 of 1);
-    }
-    @include grid-media($media-xl) {
-      @include grid-column(1 of 1);
-    }
-    @include grid-media($media-print) {
-      @include grid-column(1 of 1);
-    }
+    @include responsive-grid-column($column-fifty, $default-container);
   }
 
 }

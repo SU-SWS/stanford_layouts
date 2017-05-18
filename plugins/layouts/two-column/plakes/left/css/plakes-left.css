@@ -67,7 +67,7 @@
 .layout--plakes--left section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: "flex-start";
   align-items: flex-start;
   align-content: center;
   box-sizing: border-box;

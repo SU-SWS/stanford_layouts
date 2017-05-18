@@ -20,19 +20,20 @@
       <header>
         {{ content.header }}
       </header>
+      <div class="grid-collapse">
+        <div class="column column--first-first">
+          {{ content.first }}
+        </div>
 
-      <div class="column column--first-first">
-        {{ content.first }}
+        <div class="column column--first-second">
+          {{ content.second }}
+        </div>
       </div>
-
-      <div class="column column--first-second">
-        {{ content.second }}
-      </div>
-
       <footer>
         {{ content.footer }}
       </footer>
     </section>
+
     <aside class="column column--second">
       {{ content.third }}
     </aside>

@@ -28,7 +28,7 @@ $column: (
     @include responsive-grid-column($column, $default-container);
   }
 
-  .column--fourth {
+  .column--fifth {
     clear: left;
   }
 }
