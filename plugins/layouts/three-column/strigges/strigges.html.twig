@@ -16,16 +16,18 @@
 #}
 <div class="layout--strigges" {% if css_id %}{{ css_id }}{% endif %}>
 
-  <div class="column column--first">
-    {{ content.first }}
-  </div>
+  <div class="grid-collapse">
+    <div class="column column--first">
+      {{ content.first }}
+    </div>
 
-  <div class="column column--second">
-    {{ content.second }}
-  </div>
+    <div class="column column--second">
+      {{ content.second }}
+    </div>
 
-  <div class="column column--third">
-    {{ content.third }}
+    <div class="column column--third">
+      {{ content.third }}
+    </div>
   </div>
 
 </div>

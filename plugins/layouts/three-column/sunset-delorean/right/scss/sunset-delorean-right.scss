@@ -46,8 +46,10 @@ $column-aside: (
 .layout--sunset-delorean--right {
   @include responsive-container($default-container);
 
-  @include grid-media($media-md) {
-    @include flex-container();
+  > div {
+    @include grid-media($media-md) {
+      @include flex-container();
+    }
   }
 
   .grid-collapse {

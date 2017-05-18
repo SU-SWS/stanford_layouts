@@ -65,7 +65,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .layout--sunset-delorean--right {
+  .layout--sunset-delorean--right > div {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -73,7 +73,7 @@
     align-content: center;
     box-sizing: border-box;
   }
-  .layout--sunset-delorean--right > * {
+  .layout--sunset-delorean--right > div > * {
     flex: 0 0 auto;
     box-sizing: inherit;
   }

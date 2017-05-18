@@ -119,55 +119,8 @@
 }
 
 @media only screen and (max-width: 575px) {
-  .layout--space-invader .column--second {
-    width: calc(100% - 40px);
-    float: left;
-    margin-left: 20px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .layout--space-invader .column--second {
-    width: calc(25% - 25px);
-    float: left;
-    margin-left: 20px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .layout--space-invader .column--second {
-    width: calc(25% - 50px);
-    float: left;
-    margin-left: 40px;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1499px) {
-  .layout--space-invader .column--second {
-    width: calc(25% - 50px);
-    float: left;
-    margin-left: 40px;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .layout--space-invader .column--second {
-    width: calc(25% - 75px);
-    float: left;
-    margin-left: 60px;
-  }
-}
-
-@media only print {
-  .layout--space-invader .column--second {
-    width: calc(25% - 0.3125in);
-    float: left;
-    margin-left: 0.25in;
-  }
-}
-
-@media only screen and (max-width: 575px) {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
     width: calc(100% - 40px);
     float: left;
@@ -177,8 +130,9 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
-    width: calc(25% - 25px);
+    width: calc(100% - 40px);
     float: left;
     margin-left: 20px;
   }
@@ -186,8 +140,9 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
-    width: calc(25% - 50px);
+    width: calc(33.33333% - 53.33333px);
     float: left;
     margin-left: 40px;
   }
@@ -195,8 +150,9 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1499px) {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
-    width: calc(25% - 50px);
+    width: calc(33.33333% - 53.33333px);
     float: left;
     margin-left: 40px;
   }
@@ -204,8 +160,9 @@
 
 @media only screen and (min-width: 1500px) {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
-    width: calc(25% - 75px);
+    width: calc(33.33333% - 80px);
     float: left;
     margin-left: 60px;
   }
@@ -213,8 +170,9 @@
 
 @media only print {
   .layout--space-invader .column--first,
+  .layout--space-invader .column--second,
   .layout--space-invader .column--third {
-    width: calc(25% - 0.3125in);
+    width: calc(33.33333% - 0.33333in);
     float: left;
     margin-left: 0.25in;
   }
