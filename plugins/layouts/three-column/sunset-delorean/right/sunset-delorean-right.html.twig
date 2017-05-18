@@ -15,25 +15,26 @@
  */
 #}
 <div class="layout--sunset-delorean--right" {% if css_id %}{{ css_id }}{% endif %}>
-  <section>
-    <div class="grid-collapse">
-      <header class="column column--header">
-        {{ content.header }}
-      </header>
+  <div class="grid-collapse">
+    <section>
+      <div class="grid-collapse">
+        <header class="column column--header">
+          {{ content.header }}
+        </header>
 
-      <div class="column column--first">
-        {{ content.first }}
+        <div class="column column--first">
+          {{ content.first }}
+        </div>
+
+        <div class="column--second">
+            {{ content.second }}
+        </div>
       </div>
+    </section>
 
-      <div class="column--second">
-          {{ content.second }}
-      </div>
-    </div>
-  </section>
-
-  <!-- The left sidebar //-->
-  <aside class="column column--third">
-    {{ content.third }}
-  </aside>
-
+    <!-- The left sidebar //-->
+    <aside class="column column--third">
+      {{ content.third }}
+    </aside>
+  </div>
 </div>

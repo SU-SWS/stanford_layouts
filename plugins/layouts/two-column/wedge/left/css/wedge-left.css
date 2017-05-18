@@ -137,7 +137,23 @@
   order: 10;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 575px) {
+  .layout--wedge--left .column--first {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .layout--wedge--left .column--first {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--wedge--left .column--first {
     width: calc(75% - 70px);
     float: left;
@@ -145,15 +161,79 @@
   }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
+  .layout--wedge--left .column--first {
+    width: calc(75% - 70px);
+    float: left;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .layout--wedge--left .column--first {
+    width: calc(75% - 105px);
+    float: left;
+    margin-left: 60px;
+  }
+}
+
+@media only print {
+  .layout--wedge--left .column--first {
+    width: calc(75% - 0.4375in);
+    float: left;
+    margin-left: 0.25in;
+  }
+}
+
 .layout--wedge--left .column--second {
   order: 1;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 575px) {
+  .layout--wedge--left .column--second {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .layout--wedge--left .column--second {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .layout--wedge--left .column--second {
     width: calc(25% - 50px);
     float: left;
     margin-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1499px) {
+  .layout--wedge--left .column--second {
+    width: calc(25% - 50px);
+    float: left;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .layout--wedge--left .column--second {
+    width: calc(25% - 75px);
+    float: left;
+    margin-left: 60px;
+  }
+}
+
+@media only print {
+  .layout--wedge--left .column--second {
+    width: calc(25% - 0.3125in);
+    float: left;
+    margin-left: 0.25in;
   }
 }
 

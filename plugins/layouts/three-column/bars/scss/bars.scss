@@ -6,6 +6,16 @@
 // Decant.
 @import "decanter/core/utilities/decanter-utilities";
 
+// Responsive grid patterns for the column.
+$column: (
+  'xs': 1 of 1,
+  'sm': 1 of 3,
+  'md': 1 of 3,
+  'lg': 1 of 3,
+  'xl': 1 of 3,
+  'print': 1 of 3
+);
+
 .layout--bars {
   @include responsive-container($default-container);
 
@@ -13,15 +23,9 @@
     @include responsive-grid-collapse;
     @include clearfix;
   }
-  
+
   .column {
-    @include grid-media($media-sm) {
-      @include grid-column(1 of 3);
-    }
+    @include responsive-grid-column($column, $default-container);
   }
 
-  .grid-collapse {
-    @include responsive-grid-collapse;
-    @include clearfix;
-  }
 }
