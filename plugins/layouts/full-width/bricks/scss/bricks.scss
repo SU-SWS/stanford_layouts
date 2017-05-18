@@ -26,6 +26,11 @@ $column: (
   @include clearfix;
   clear: both;
 
+  .grid-collapse {
+    @include responsive-grid-collapse($default-container);
+    @include clearfix;
+  }
+
   .column {
     @include responsive-grid-column($column, $default-container);
   }

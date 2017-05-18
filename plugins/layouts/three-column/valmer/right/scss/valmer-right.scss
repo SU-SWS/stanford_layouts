@@ -35,7 +35,7 @@ $column-st: (
 
   section {
     @include grid-media($media-sm) {
-      @include flex-container();
+      @include flex-container(('justify-content': 'flex-start'));
     }
   }
 

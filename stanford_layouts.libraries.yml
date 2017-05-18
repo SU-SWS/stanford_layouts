@@ -119,7 +119,7 @@ valmer-left:
   version: VERSION
   css:
     layout:
-      plugins/layouts/three-column/valemer/left/css/valmer-left.css: {}
+      plugins/layouts/three-column/valmer/left/css/valmer-left.css: {}
 
 valmer-right:
   version: VERSION

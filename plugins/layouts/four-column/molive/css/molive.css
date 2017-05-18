@@ -91,7 +91,7 @@
   .layout--molive .column--second,
   .layout--molive .column--third,
   .layout--molive .column--fourth {
-    width: calc(25% - 50px);
+    width: calc(50% - 60px);
     float: left;
     margin-left: 40px;
   }
@@ -127,6 +127,12 @@
     width: calc(25% - 0.3125in);
     float: left;
     margin-left: 0.25in;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .layout--molive .column--third {
+    clear: left;
   }
 }
 

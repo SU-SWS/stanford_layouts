@@ -15,25 +15,25 @@
  */
 #}
 <div class="layout--thions-top" {% if css_id %}{{ css_id }}{% endif %}>
+  <div class="grid-collapse">
+    <div class="column column--first">
+      {{ content.first }}
+    </div>
 
-  <div class="column column--first">
-    {{ content.first }}
+    <div class="column column--second">
+      {{ content.second }}
+    </div>
+
+    <div class="column column--third">
+      {{ content.third }}
+    </div>
+
+    <div class="column column--fourth">
+      {{ content.fourth }}
+    </div>
+
+    <div class="column column--fifth">
+      {{ content.fifth }}
+    </div>
   </div>
-
-  <div class="column column--second">
-    {{ content.second }}
-  </div>
-
-  <div class="column column--third">
-    {{ content.third }}
-  </div>
-
-  <div class="column column--fourth">
-    {{ content.fourth }}
-  </div>
-
-  <div class="column column--fifth">
-    {{ content.fifth }}
-  </div>
-
 </div>
