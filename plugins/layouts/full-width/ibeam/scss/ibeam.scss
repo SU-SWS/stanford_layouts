@@ -15,4 +15,10 @@
   @include responsive-container($default-container);
   @include clearfix;
   clear: both;
+
+  .grid-collapse {
+    @include responsive-grid-collapse($default-container);
+    @include clearfix;
+  }
+
 }
