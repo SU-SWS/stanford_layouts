@@ -1,4 +1,4 @@
-#[Stanford Layouts](https://github.com/SU-SWS/stanford_layouts)
+# [Stanford Layouts](https://github.com/SU-SWS/stanford_layouts)
 ##### Version: 8.x-1.x
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)  
