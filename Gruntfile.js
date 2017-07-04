@@ -106,6 +106,7 @@ module.exports = function(grunt) {
           'plugins/layouts/three-column/valmer/left/css/valmer-left.css' : 'plugins/layouts/three-column/valmer/left/scss/valmer-left.scss',
           'plugins/layouts/three-column/valmer/right/css/valmer-right.css' : 'plugins/layouts/three-column/valmer/right/scss/valmer-right.scss',
           // Two Column.
+          'plugins/layouts/two-column/aiur/css/aiur.css' : 'plugins/layouts/two-column/aiur/scss/aiur.scss',
           'plugins/layouts/two-column/donies/css/donies.css' : 'plugins/layouts/two-column/donies/scss/donies.scss',
           'plugins/layouts/two-column/frogger/css/frogger.css' : 'plugins/layouts/two-column/frogger/scss/frogger.scss',
           'plugins/layouts/two-column/pacman/right/css/pacman-right.css' : 'plugins/layouts/two-column/pacman/right/scss/pacman-right.scss',
