@@ -14,22 +14,19 @@
  *   - $content['second']: Content in the right column.
  */
 #}
-<div class="layout--aiur {% if css_id %}{{ css_id }}{% endif %}>
+<div class="layout--aiur {% if css_id %}{{ css_id }}{% endif %}">
   <header>
-    you're gonna go far, kid
     {{ content.header }}
   </header>
   <section class="grid-collapse with-floating_sidebar">
 
     <div id="floating_sidebar__wrapper" class="floating_sidebar__wrapper">
       <div id="floating_sidebar" class="floating_sidebar">
-          I'm floating!
           {{ content.first }}
       </div>
     </div>
 
     <div class="column column--second">
-        Hello, I'm your friendly neighborhood main content.
       {{ content.second }}
     </div>
   </section>
