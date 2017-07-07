@@ -26,25 +26,23 @@ $column-second: (
   'print': 2 of 3
 );
 
-#sidebar__wrapper {
+#floating_sidebar__wrapper {
   position: absolute;
   background: rgba(238, 238, 238, 0.9);
   top: 160px;
   z-index: 10;
+  padding: 19px 12px;
 
   h2 {
     color: white;
     background: teal;
     padding: 7px 30px;
-  }
-
-  ul {
-    padding: 19px 12px;
+    margin: -19px -12px 19px; // everything gets padding except block title
   }
 }
 
 @media (max-width: 860px) {
-  #sidebar__wrapper {
+  #floating_sidebar__wrapper {
     position: static;
     margin: 10px auto;
   }

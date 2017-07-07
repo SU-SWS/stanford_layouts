@@ -16,17 +16,20 @@
 #}
 <div class="layout--aiur {% if css_id %}{{ css_id }}{% endif %}>
   <header>
+    you're gonna go far, kid
     {{ content.header }}
   </header>
-  <section class="grid-collapse with-sidebar">
+  <section class="grid-collapse with-floating_sidebar">
 
-    <div id="sidebar__wrapper" class="sidebar__wrapper">
-      <div id="sidebar" class="sidebar">
+    <div id="floating_sidebar__wrapper" class="floating_sidebar__wrapper">
+      <div id="floating_sidebar" class="floating_sidebar">
+          I'm floating!
           {{ content.first }}
       </div>
     </div>
 
     <div class="column column--second">
+        Hello, I'm your friendly neighborhood main content.
       {{ content.second }}
     </div>
   </section>

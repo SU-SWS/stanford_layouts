@@ -1,22 +1,20 @@
-#sidebar__wrapper {
+#floating_sidebar__wrapper {
   position: absolute;
   background: rgba(238, 238, 238, 0.9);
   top: 160px;
   z-index: 10;
-}
-
-#sidebar__wrapper h2 {
-  color: white;
-  background: teal;
-  padding: 7px 30px;
-}
-
-#sidebar__wrapper ul {
   padding: 19px 12px;
 }
 
+#floating_sidebar__wrapper h2 {
+  color: white;
+  background: teal;
+  padding: 7px 30px;
+  margin: -19px -12px 19px;
+}
+
 @media (max-width: 860px) {
-  #sidebar__wrapper {
+  #floating_sidebar__wrapper {
     position: static;
     margin: 10px auto;
   }
