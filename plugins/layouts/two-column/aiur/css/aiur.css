@@ -6,13 +6,6 @@
   padding: 19px 12px;
 }
 
-#floating_sidebar__wrapper h2 {
-  color: white;
-  background: teal;
-  padding: 7px 30px;
-  margin: -19px -12px 19px;
-}
-
 @media (max-width: 860px) {
   #floating_sidebar__wrapper {
     position: static;
