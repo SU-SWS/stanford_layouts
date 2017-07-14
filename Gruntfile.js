@@ -110,6 +110,7 @@ module.exports = function(grunt) {
           'plugins/layouts/two-column/frogger/css/frogger.css' : 'plugins/layouts/two-column/frogger/scss/frogger.scss',
           'plugins/layouts/two-column/pacman/right/css/pacman-right.css' : 'plugins/layouts/two-column/pacman/right/scss/pacman-right.scss',
           'plugins/layouts/two-column/pacman/left/css/pacman-left.css' : 'plugins/layouts/two-column/pacman/left/scss/pacman-left.scss',
+          'plugins/layouts/two-column/aiur/css/aiur.css' : 'plugins/layouts/two-column/aiur/scss/aiur.scss',
           'plugins/layouts/two-column/plakes/right/css/plakes-right.css' : 'plugins/layouts/two-column/plakes/right/scss/plakes-right.scss',
           'plugins/layouts/two-column/plakes/left/css/plakes-left.css' : 'plugins/layouts/two-column/plakes/left/scss/plakes-left.scss',
           'plugins/layouts/two-column/toucan/css/toucan.css' : 'plugins/layouts/two-column/toucan/scss/toucan.scss',

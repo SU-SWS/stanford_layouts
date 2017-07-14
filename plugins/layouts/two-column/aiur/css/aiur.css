@@ -1,0 +1,21 @@
+section.with-floating_sidebar {
+  position: relative;
+}
+
+#floating_sidebar__wrapper {
+  left: 0;
+  position: relative;
+  float: left;
+  background: rgba(238, 238, 238, 0.9);
+  z-index: 10;
+  padding: 19px 12px;
+}
+
+@media (max-width: 860px) {
+  #floating_sidebar__wrapper {
+    position: static;
+    margin: 10px auto;
+  }
+}
+
+/*# sourceMappingURL=aiur.css.map */

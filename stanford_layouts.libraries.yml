@@ -152,6 +152,12 @@ pacman-right:
     layout:
       plugins/layouts/two-column/pacman/right/css/pacman-right.css: {}
 
+aiur:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/aiur/css/aiur.css: {}
+
 plakes-left:
   version: VERSION
   css:
