@@ -128,6 +128,12 @@ valmer-right:
       plugins/layouts/three-column/valmer/right/css/valmer-right.css: {}
 
 # TWO COLUMN
+aiur:
+  version: VERSION
+  css:
+    layout:
+      plugins/layouts/two-column/aiur/css/aiur.css: {}
+
 donies:
   version: VERSION
   css:
