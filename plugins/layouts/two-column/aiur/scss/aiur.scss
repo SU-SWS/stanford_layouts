@@ -31,8 +31,11 @@ section.with-floating_sidebar {
   position: relative;
 }
 
+// Graceful default for no javascript
 #floating_sidebar__wrapper {
-  position: absolute;
+  left: 0;
+  position: relative;
+  float: left;
   background: rgba(238, 238, 238, 0.9);
   z-index: 10;
   padding: 19px 12px;
