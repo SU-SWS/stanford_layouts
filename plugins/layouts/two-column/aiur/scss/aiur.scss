@@ -7,21 +7,32 @@
 @import "decanter/core/utilities/decanter-utilities";
 
 .layout--aiur {
-  position: relative;
+
+  .with-floating_sidebar {
+    position: relative;
+    min-height: 600px;
+  }
 
   #floating_sidebar__wrapper {
     @include responsive-container($default-container);
-    height: 1px;
-    max-height: 1px;
+    @include grid-media($media-md) {
+      height: 1px;
+      max-height: 1px;
+    }
   }
 
   #floating_sidebar {
-    width: grid-columns(1 of 12);
-    position: absolute;
-    top: 0px;
     background: rgba(238, 238, 238, 0.9);
     height: 100%;
-    z-index: 50;
+    min-height: 100%;
+
+    @include grid-media($media-md) {
+      width: grid-columns(1 of 12);
+      position: absolute;
+      top: 0px;
+      z-index: 50;
+    }
+
   }
 
 }

@@ -1,10 +1,6 @@
-.layout--aiur {
+.layout--aiur .with-floating_sidebar {
   position: relative;
-}
-
-.layout--aiur #floating_sidebar__wrapper {
-  height: 1px;
-  max-height: 1px;
+  min-height: 600px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -73,13 +69,26 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .layout--aiur #floating_sidebar__wrapper {
+    height: 1px;
+    max-height: 1px;
+  }
+}
+
 .layout--aiur #floating_sidebar {
-  width: grid-columns(1 of 12);
-  position: absolute;
-  top: 0px;
   background: rgba(238, 238, 238, 0.9);
   height: 100%;
-  z-index: 50;
+  min-height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .layout--aiur #floating_sidebar {
+    width: grid-columns(1 of 12);
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+  }
 }
 
 /*# sourceMappingURL=aiur.css.map */
