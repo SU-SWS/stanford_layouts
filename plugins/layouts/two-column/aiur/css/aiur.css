@@ -74,7 +74,7 @@
 }
 
 .layout--aiur #floating_sidebar {
-  width: 170px;
+  width: grid-columns(1 of 12);
   position: absolute;
   top: 0px;
   background: rgba(238, 238, 238, 0.9);
