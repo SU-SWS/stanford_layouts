@@ -4,10 +4,7 @@ engines:
   eslint:
     enabled: false
   csslint:
-    enabled: true
-    checks:
-      overqualified-elements:
-        enabled: false
+    enabled: false
   # We don't lint our coffee. Eew.
   coffeelint:
     enabled: false
@@ -30,6 +27,12 @@ engines:
       VendorPrefix:
         enabled: false
       LeadingZero:
+        enabled: false
+      SelectorFormat:
+        enabled: false
+      ColorKeyword:
+        enabled: false
+      NestingDepth:
         enabled: false
   phpcodesniffer:
     enabled: true
@@ -63,6 +66,8 @@ engines:
       CleanCode/ElseExpression:
         enabled: false
       CleanCode/BooleanArgumentFlag:
+        enabled: false
+      UnusedFormalParameter:
         enabled: false
     config:
       # https://phpmd.org/rules/index.html
