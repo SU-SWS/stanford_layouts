@@ -6,19 +6,27 @@
 // Decant.
 @import "decanter/core/utilities/decanter-utilities";
 
-.full-width {
-  @include clearfix;
-  clear: both;
-}
-
-.layout--ibeam {
-  @include responsive-container($default-container);
-  @include clearfix;
-  clear: both;
-
-  .grid-collapse {
-    @include responsive-grid-collapse($default-container);
+.ibeam {
+  .full-width {
     @include clearfix;
+    clear: both;
   }
 
+  .partial-width.title {
+    @include responsive-container($default-container);
+    @include clearfix;
+    clear: both;
+  }
+
+  .layout--ibeam {
+    @include responsive-container($default-container);
+    @include clearfix;
+    clear: both;
+
+    .grid-collapse {
+      @include responsive-grid-collapse($default-container);
+      @include clearfix;
+    }
+
+  }
 }

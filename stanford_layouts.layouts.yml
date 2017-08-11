@@ -32,6 +32,8 @@ layout_ibeam:
   regions:
     hero:
       label: Full Width Top
+    title:
+      label: H1 Title
     first:
       label: First Column
     full:

@@ -14,18 +14,26 @@
  *   - $content['right']: Content in the right column.
  */
 #}
-<section class="full-width hero">
-  {{ content.hero }}
-</section>
+<div class="ibeam">
+  <section class="full-width hero">
+    {{ content.hero }}
+  </section>
 
-<section class="layout--ibeam">
-  {{ content.first }}
-</section>
+  {% if content.title|render|striptags is not empty %}
+    <section class="partial-width title">
+      <h1>{{ content.title|render|striptags }}</h1>
+    </section>
+  {% endif %}
 
-<section class="full-width anti-hero">
-  {{ content.full }}
-</section>
+  <section class="layout--ibeam">
+    {{ content.first }}
+  </section>
 
-<section class="layout--ibeam">
-  {{ content.second }}
-</section>
+  <section class="full-width anti-hero">
+    {{ content.full }}
+  </section>
+
+  <section class="layout--ibeam">
+    {{ content.second }}
+  </section>
+</div>
