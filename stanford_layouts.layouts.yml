@@ -32,12 +32,10 @@ layout_ibeam:
   regions:
     hero:
       label: Full Width Top
-    title:
-      label: H1 Title
     first:
       label: First Column
     full:
-      label: Full Width \#2
+      label: Full Width bottom
     second:
       label: Second Column
 

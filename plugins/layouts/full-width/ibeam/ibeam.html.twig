@@ -19,12 +19,6 @@
     {{ content.hero }}
   </section>
 
-  {% if content.title|render|striptags is not empty %}
-    <section class="partial-width title">
-      <h1>{{ content.title|render|striptags }}</h1>
-    </section>
-  {% endif %}
-
   <section class="layout--ibeam">
     {{ content.first }}
   </section>
