@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ */
+
+use Drupal\block_content\Entity\BlockContent;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\block\Entity\Block;
+use Drupal\block_content\Entity\BlockContentType;
+
+/**
+ * Installation function.
+ */
+function stanford_layouts_install() {
+  // Create the config entity for our custom block.
+  stanford_layouts_create_node_title_block_config_entity();
+}
+
+/**
+ * Create a config entity for the new custom block.
+ */
+function stanford_layouts_update_8100() {
+  // Create a config entity for our custom block.
+  stanford_layouts_create_node_title_block_config_entity();
+}
+
+/**
+ * Provides the data loop for creating custom block config entities.
+ */
+function stanford_layouts_create_node_title_block_config_entity() {
+  $blocks = [
+    '44ace210-2576-4c92-8a88-d15c45e55b5a' => [
+      'type' => 'stanford_layouts',
+      'id' => 'stanford_layouts_node_title',
+      'uuid' => '44ace210-2576-4c92-8a88-d15c45e55b5a',
+    ],
+  ];
+
+  foreach ($blocks as $block) {
+    stanford_layouts_create_content($block['type'], $block['id'], $block['uuid']);
+  }
+}
+
+/**
+ * Creates install content.
+ *
+ * @param string $type
+ *   The block type.
+ * @param string $block_id
+ *   The block id.
+ * @param string $uuid
+ *   The unqiue ID.
+ */
+function stanford_layouts_create_content($type, $block_id, $uuid) {
+  $block_content = BlockContent::create([
+    'type' => $type,
+    'info' => $block_id,
+    'uuid' => $uuid,
+  ]);
+  $block_content->save();
+}

@@ -3,6 +3,7 @@
 namespace Drupal\stanford_layouts\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\RoutingRouteMatchInterface;
 
 /**
  * Provides a block for page titles on nodes.
@@ -20,7 +21,7 @@ class NodeTitleForPanelsBlock extends BlockBase {
    *
    * @var \Drupal\Core\Routing\RouteMatchInterface
    */
-  private $route_match;
+  private $routeMatch;
 
   /**
    * {@inheritdoc}
@@ -41,10 +42,10 @@ class NodeTitleForPanelsBlock extends BlockBase {
    *   The routeMatch service object.
    */
   protected function routeMatch() {
-    if (!$this->route_match) {
-      $this->route_match = \Drupal::routeMatch();
+    if (!$this->routeMatch) {
+      $this->routeMatch = \Drupal::routeMatch();
     }
-    return $this->route_match;
+    return $this->routeMatch;
   }
 
   /**
@@ -54,7 +55,7 @@ class NodeTitleForPanelsBlock extends BlockBase {
    *   The routeMatch service.
    */
   public function setRouteMatch(RouteMatchInterface $route_match) {
-    $this->$route_match = $route_match;
+    $this->routeMatch = $route_match;
   }
 
 }
