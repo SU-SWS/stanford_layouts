@@ -3,7 +3,6 @@
 namespace Drupal\stanford_layouts\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
-use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Provides a block for page titles on nodes.
@@ -17,15 +16,45 @@ use Drupal\Core\Form\FormStateInterface;
 class NodeTitleForPanelsBlock extends BlockBase {
 
   /**
+   * The currently active route match object.
+   *
+   * @var \Drupal\Core\Routing\RouteMatchInterface
+   */
+  private $route_match;
+
+  /**
    * {@inheritdoc}
    */
   public function build() {
-    $node = \Drupal::routeMatch()->getParameter('node');
+    $node = $this->routeMatch()->getParameter('node');
     if (is_object($node)) {
-      return array(
+      return [
         '#markup' => "<h1 id=\"page-title\" class=\"page-title\">" . $node->getTitle() . "</h1>",
-      );
+      ];
     }
+  }
+
+  /**
+   * Wraps the routeMatch service.
+   *
+   * @return \Drupal\Core\Routing\RouteMatchInterface
+   *   The routeMatch service object.
+   */
+  protected function routeMatch() {
+    if (!$this->route_match) {
+      $this->route_match = \Drupal::routeMatch();
+    }
+    return $this->route_match;
+  }
+
+  /**
+   * Sets the RouteMatch service.
+   *
+   * @param \Drupal\Core\Routing\RouteMatchInterface $route_match
+   *   The routeMatch service.
+   */
+  public function setRouteMatch(RouteMatchInterface $route_match) {
+    $this->$route_match = $route_match;
   }
 
 }
