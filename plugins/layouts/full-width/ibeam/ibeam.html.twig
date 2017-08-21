@@ -14,18 +14,20 @@
  *   - $content['right']: Content in the right column.
  */
 #}
-<section class="full-width hero">
-  {{ content.hero }}
-</section>
+<div class="layout--ibeam">
+  <section class="full-width hero">
+    {{ content.hero }}
+  </section>
 
-<section class="layout--ibeam">
-  {{ content.first }}
-</section>
+  <section class="ibeam-centered">
+    {{ content.first }}
+  </section>
 
-<section class="full-width anti-hero">
-  {{ content.full }}
-</section>
+  <section class="full-width anti-hero">
+    {{ content.full }}
+  </section>
 
-<section class="layout--ibeam">
-  {{ content.second }}
-</section>
+  <section class="ibeam-centered">
+    {{ content.second }}
+  </section>
+</div>

@@ -35,7 +35,7 @@ layout_ibeam:
     first:
       label: First Column
     full:
-      label: Full Width \#2
+      label: Full Width bottom
     second:
       label: Second Column
 
