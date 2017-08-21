@@ -2,6 +2,7 @@
 
 /**
  * @file
+ * Install functions.
  */
 
 use Drupal\block_content\Entity\BlockContent;

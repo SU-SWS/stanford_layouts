@@ -43,6 +43,9 @@ class NodeTitleForPanelsBlock extends BlockBase {
    */
   protected function routeMatch() {
     if (!$this->routeMatch) {
+      // @TODO: Find out how to Dependency Inject this.
+      // See line 261 of https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Block%21BlockBase.php/8.3.x
+      // as an example of this pattern.
       $this->routeMatch = \Drupal::routeMatch();
     }
     return $this->routeMatch;
