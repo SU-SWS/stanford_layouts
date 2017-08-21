@@ -1,22 +1,22 @@
-.ibeam .full-width {
+.layout--ibeam .full-width {
   clear: both;
 }
 
-.ibeam .full-width::after {
+.layout--ibeam .full-width::after {
   clear: both;
   content: "";
   display: block;
 }
 
-.ibeam .partial-width.title {
+.layout--ibeam .ibeam-centered {
   clear: both;
 }
 
 @media only screen and (max-width: 575px) {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(((50% /12) * 0) + 20px);
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
@@ -24,10 +24,10 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(((50% /12) * 0) + 20px);
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
@@ -35,10 +35,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(((50% /12) * 0) + 40px);
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
@@ -46,10 +46,10 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1499px) {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(((50% /12) * 0) + 40px);
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
@@ -57,10 +57,10 @@
 }
 
 @media only screen and (min-width: 1500px) {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(50% - (750px - 60px));
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
@@ -68,100 +68,24 @@
 }
 
 @media only print {
-  .ibeam .partial-width.title {
+  .layout--ibeam .ibeam-centered {
     padding: 1em calc(((50% /12) * 0) + 0.25in);
   }
-  .ibeam .partial-width.title::after {
+  .layout--ibeam .ibeam-centered::after {
     clear: both;
     content: "";
     display: block;
   }
 }
 
-.ibeam .partial-width.title::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-.ibeam .layout--ibeam {
-  clear: both;
-}
-
-@media only screen and (max-width: 575px) {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(((50% /12) * 0) + 20px);
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(((50% /12) * 0) + 40px);
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1499px) {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(((50% /12) * 0) + 40px);
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(50% - (750px - 60px));
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-@media only print {
-  .ibeam .layout--ibeam {
-    padding: 1em calc(((50% /12) * 0) + 0.25in);
-  }
-  .ibeam .layout--ibeam::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}
-
-.ibeam .layout--ibeam::after {
+.layout--ibeam .ibeam-centered::after {
   clear: both;
   content: "";
   display: block;
 }
 
 @media only screen and (max-width: 575px) {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -169,7 +93,7 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -20px;
     margin-right: -20px;
     width: calc(100% + 40px);
@@ -177,7 +101,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -40px;
     margin-right: -40px;
     width: calc(100% + 80px);
@@ -185,7 +109,7 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1499px) {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -40px;
     margin-right: -40px;
     width: calc(100% + 80px);
@@ -193,7 +117,7 @@
 }
 
 @media only screen and (min-width: 1500px) {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -60px;
     margin-right: -60px;
     width: calc(100% + 120px);
@@ -201,14 +125,14 @@
 }
 
 @media only print {
-  .ibeam .layout--ibeam .grid-collapse {
+  .layout--ibeam .ibeam-centered .grid-collapse {
     margin-left: -0.25in;
     margin-right: -0.25in;
     width: calc(100% + 0.5in);
   }
 }
 
-.ibeam .layout--ibeam .grid-collapse::after {
+.layout--ibeam .ibeam-centered .grid-collapse::after {
   clear: both;
   content: "";
   display: block;
