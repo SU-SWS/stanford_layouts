@@ -3,7 +3,7 @@
 namespace Drupal\stanford_layouts\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
-use Drupal\Core\RoutingRouteMatchInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
  * Provides a block for page titles on nodes.

@@ -6,19 +6,14 @@
 // Decant.
 @import "decanter/core/utilities/decanter-utilities";
 
-.ibeam {
+.layout--ibeam {
+
   .full-width {
     @include clearfix;
     clear: both;
   }
 
-  .partial-width.title {
-    @include responsive-container($default-container);
-    @include clearfix;
-    clear: both;
-  }
-
-  .layout--ibeam {
+  .ibeam-centered {
     @include responsive-container($default-container);
     @include clearfix;
     clear: both;
