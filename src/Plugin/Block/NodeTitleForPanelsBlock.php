@@ -25,6 +25,9 @@ class NodeTitleForPanelsBlock extends BlockBase implements ContainerFactoryPlugi
    */
   private $routeMatch;
 
+  /**
+   * {@inheritdoc}
+   */
   public function __construct($configuration, $plugin_id, $plugin_definition, RouteMatchInterface $route_match) {
     $this->routeMatch = $route_match;
   }
@@ -38,7 +41,6 @@ class NodeTitleForPanelsBlock extends BlockBase implements ContainerFactoryPlugi
       $container->get('current_route_match')
     );
   }
-
 
   /**
    * {@inheritdoc}
