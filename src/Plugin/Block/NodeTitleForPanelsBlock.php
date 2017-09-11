@@ -3,7 +3,9 @@
 namespace Drupal\stanford_layouts\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Provides a block for page titles on nodes.
@@ -14,7 +16,7 @@ use Drupal\Core\Routing\RouteMatchInterface;
  *   category = @Translation("Panels"),
  * )
  */
-class NodeTitleForPanelsBlock extends BlockBase {
+class NodeTitleForPanelsBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   /**
    * The currently active route match object.
@@ -26,29 +28,30 @@ class NodeTitleForPanelsBlock extends BlockBase {
   /**
    * {@inheritdoc}
    */
+  public function __construct($configuration, $plugin_id, $plugin_definition, RouteMatchInterface $route_match) {
+    $this->routeMatch = $route_match;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
+    return new static(
+      $configuration, $plugin_id, $plugin_definition,
+      $container->get('current_route_match')
+    );
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function build() {
-    $node = $this->routeMatch()->getParameter('node');
+    $node = $this->routeMatch->getParameter('node');
     if (is_object($node)) {
       return [
         '#markup' => "<h1 id=\"page-title\" class=\"page-title\">" . $node->getTitle() . "</h1>",
       ];
     }
-  }
-
-  /**
-   * Wraps the routeMatch service.
-   *
-   * @return \Drupal\Core\Routing\RouteMatchInterface
-   *   The routeMatch service object.
-   */
-  protected function routeMatch() {
-    if (!$this->routeMatch) {
-      // @TODO: Find out how to Dependency Inject this.
-      // See line 261 of https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Block%21BlockBase.php/8.3.x
-      // as an example of this pattern.
-      $this->routeMatch = \Drupal::routeMatch();
-    }
-    return $this->routeMatch;
   }
 
   /**
